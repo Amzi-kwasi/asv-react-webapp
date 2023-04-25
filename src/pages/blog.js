@@ -27,16 +27,14 @@ const Blog = () => {
     <br/>
        
     <div className="page-heading pdt-head header-text animate__animated animate__zoomIn">
-      <div className="container" >
-        <div className="row">
+      
           <div className="col-md-12">
             <div className="text-content">
               <h2>Blog</h2>
             </div>
           </div>
         </div>
-      </div>
-    </div>
+      
 
 
 

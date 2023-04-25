@@ -25,26 +25,6 @@ function Big(){
 
 
            
-        //Save the value function - save it to localStorage as (ID, VALUE)
-        function saveValue(e){
-            var id = e.id;  // get the sender's id to save it . 
-            var val = e.value; // get the value. 
-            
-              document.getElementById("doc-1").value = getSavedValue("doc-1");
-           // document.getElementById("doc-2").value = getSavedValue("doc-2");
-
-            localStorage.setItem(id, val);// Every time user writing something, the localStorage's value will override . 
-        }
-
-        
-
-        //get the saved value function - return the value of "v" from localStorage. 
-        function getSavedValue(v){
-            if (!localStorage.getItem(v)) {
-                return "";// You can change this to your defualt value. 
-            }
-            return localStorage.getItem(v);
-        }
 
 
 
@@ -60,9 +40,17 @@ export default function Doc() {
 }
 useEffect(() => {
     setUrl(localStorage.getItem('recent-image'));
-}, [])
+}, []);
 
-    
+
+
+const localNotes =localStorage.getItem("notes");
+const [notes, setNotes] = useState(localNotes);
+
+const handleChange = e => {
+    localStorage.setItem("notes", e.target.value);
+    setNotes(e.target.value);
+}
   return (
     <>
 
@@ -97,7 +85,7 @@ useEffect(() => {
 
     <div id="font" class="maincont">
 
-<textarea type="text"  name="doc-1" id="doc-1" onKeyUp={saveValue} style={{width:"100%" , height:"200vh",border:"none"}} placeholder="|"></textarea>
+<textarea type="text" value={notes} onChange={handleChange} style={{width:"100%" , height:"200vh",border:"none"}} placeholder="|"></textarea>
 {/* 
 <textarea type="text"  name="doc-2" id="doc-2" onKeyUp={saveValue} style={{width:"100%" , height:"200vh",border:"none"}} placeholder="|"></textarea> */}
 

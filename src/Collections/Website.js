@@ -51,7 +51,19 @@ const downloadTxtFile = () => {
     element.click();
 }
 
+ function ecom(){
+    document.getElementById("ecm").style.display="flex";
+    document.getElementById("all-item").style.display="none";
+    document.getElementById("ecm-a").classList.add("filter-active")
+    document.getElementById("all-btn").classList.remove("filter-active")
+ }
 
+function all(){
+    document.getElementById('all-item').style.display="flex";
+    document.getElementById('ecm').style.display="none";
+    document.getElementById("all-btn").classList.add("filter-active")
+    document.getElementById("ecm-a").classList.remove("filter-active")
+}
 
 const Website = () => {
     return (
@@ -99,30 +111,21 @@ const Website = () => {
   </section>
 
 
-{/* <div style={{backgroundColor:"#262626" , color:"white",height:"250px", border:"2px solid gold"}}>
-    <h2 style={{color:"gold", textAlign:"center"}}>Free Html Css Templates</h2>
-    <br/>
-    <p>All 100+ Html5 templates are absolutely 100% free. We have grouped the Website into catdegories: 
-    You can use free templates for your commercial or personal or learning purposes. Please <Link to="/contact">contact</a> us if you have any question.
-    </p>
-</div> */}
-
 <br/>
    <h5 className="blueviolet">Free Website Templates</h5>
-   <div class="row">
+         
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
-              <li class="filter-active">All</li>
-              <Link to="/ecom_web"><li>Ecommerce</li></Link>
+              <li onClick={all} className="filter-active" id="all-btn">All</li>
+              <li onClick={ecom} id="ecm-a">Ecommerce</li>
               <li>One Page</li>
               <li>Education</li>
               <li>Health</li>
             </ul>
           </div>
-        </div>
-
-<section className="collection-main" id="myUL">
-            <div className="collection-main-item">
+        
+<section className="collection-main myUL" id="all-item">
+            <div className="collection-main-item" >
                     <Link to="/fweb#efl"><img src={require('../img/web_temp/eflyer.png')} className="col-img animate__animated animate__zoomIn" alt="col"/>
                     </Link>
             </div>
@@ -157,62 +160,62 @@ const Website = () => {
             </Link>
             </div>
 
-            <div className="collection-main-item">
+            <div className="collection-main-item" >
                 <Link to="/fweb"><img src={require('../img/web_temp/consult.png')} className="col-img animate__animated animate__zoomIn" alt="col"/>
             </Link>
             </div>
-            <div className="collection-main-item">
+            <div className="collection-main-item" >
                 <Link to="/fweb"><img src={require('../img/web_temp/dewi.png')} className="col-img animate__animated animate__zoomIn" alt="col"/>
             </Link>
             </div>
-            <div className="collection-main-item">
+            <div className="collection-main-item" >
                 <Link to="/fweb"><img src={require('../img/web_temp/flattern.png')} className="col-img animate__animated animate__zoomIn" alt="col"/>
             </Link>
             </div>
-            <div className="collection-main-item">
+            <div className="collection-main-item" >
                 <Link to="/fweb"><img src={require('../img/web_temp/creative.png')} className="col-img animate__animated animate__zoomIn" alt="col"/>
             </Link>
             </div>
-            <div className="collection-main-item">
+            <div className="collection-main-item" >
                 <Link to="/fweb"><img src={require('../img/web_temp/day.png')} className="col-img animate__animated animate__zoomIn" alt="col"/>
             </Link>
             </div>
-            <div className="collection-main-item">
+            <div className="collection-main-item" >
                 <Link to="/fweb"><img src={require('../img/web_temp/delicious.png')} className="col-img animate__animated animate__zoomIn" alt="col"/>
             </Link>
             </div>
-            <div className="collection-main-item">
+            <div className="collection-main-item" >
                 <Link to="/fweb"><img src={require('../img/web_temp/bethany.png')} className="col-img animate__animated animate__zoomIn" alt="col"/>
             </Link>
             </div>
-            <div className="collection-main-item">
+            <div className="collection-main-item" >
                 <Link to="/fweb"><img src={require('../img/web_temp/furni.png')} className="col-img animate__animated animate__zoomIn" alt="col"/>
             </Link>
             </div>
-            <div className="collection-main-item">
+            <div className="collection-main-item" >
                 <Link to="/fweb"><img src={require('../img/web_temp/estage.png')} className="col-img animate__animated animate__zoomIn" alt="col"/>
             </Link>
             </div>
-            <div className="collection-main-item">
+            <div className="collection-main-item" >
                 <Link to="/fweb"><img src={require('../img/web_temp/knightone.png')} className="col-img animate__animated animate__zoomIn" alt="col"/>
             </Link>
             </div>
-            <div className="collection-main-item">
+            <div className="collection-main-item" >
                 <Link to="/fweb"><img src={require('../img/web_temp/gymster.png')} className="col-img animate__animated animate__zoomIn" alt="col"/>
             </Link>
             </div>
-            <div className="collection-main-item">
+            <div className="collection-main-item" >
                 <Link to="/fweb"><img src={require('../img/web_temp/imperial.png')} className="col-img animate__animated animate__zoomIn" alt="col"/>
             </Link>
             </div>
-            <div className="collection-main-item">
+            <div className="collection-main-item" >
                 <Link to="/fweb"><img src={require('../img/web_temp/buzzed.png')} className="col-img animate__animated animate__zoomIn" alt="col"/>
             </Link>
             </div>
-            <div className="collection-main-item">
+            <div className="collection-main-item" >
                 <Link to="/fweb"><img src={require('../img/web_temp/deni.png')} className="col-img animate__animated animate__zoomIn" alt="col"/>
             </Link>
-            </div> <div className="collection-main-item">
+            </div> <div className="collection-main-item" >
                 <Link to="/fweb"><img src={require('../img/web_temp/bizland.png')} className="col-img animate__animated animate__zoomIn" alt="col"/>
             </Link>
             </div>
@@ -220,98 +223,98 @@ const Website = () => {
                 <Link to="/fweb"><img src={require('../img/web_temp/malefash.png')} className="col-img animate__animated animate__zoomIn" alt="col"/>
             </Link>
             </div>
-            <div className="collection-main-item">
+            <div className="collection-main-item" >
                 <Link to="/fweb"><img src={require('../img/web_temp/maxim.png')} className="col-img animate__animated animate__zoomIn" alt="col"/>
             </Link>
             </div>
-            <div className="collection-main-item">
+            <div className="collection-main-item" >
                 <Link to="/fweb"><img src={require('../img/web_temp/medicio.png')} className="col-img animate__animated animate__zoomIn" alt="col"/>
             </Link>
             </div>
-            <div className="collection-main-item">
+            <div className="collection-main-item" >
                 <Link to="/fweb"><img src={require('../img/web_temp/medilab.png')} className="col-img animate__animated animate__zoomIn" alt="col"/>
             </Link>
             </div>
-            <div className="collection-main-item">
+            <div className="collection-main-item" >
                 <Link to="/fweb"><img src={require('../img/web_temp/melodi.png')} className="col-img animate__animated animate__zoomIn" alt="col"/>
             </Link>
             </div>
-            <div className="collection-main-item">
+            <div className="collection-main-item" >
                 <Link to="/fweb"><img src={require('../img/web_temp/mentor.png')} className="col-img animate__animated animate__zoomIn" alt="col"/>
             </Link>
             </div>
-            <div className="collection-main-item">
+            <div className="collection-main-item" >
                 <Link to="/fweb"><img src={require('../img/web_temp/mical.png')} className="col-img animate__animated animate__zoomIn" alt="col"/>
             </Link>
             </div>
 
-            <div className="collection-main-item">
+            <div className="collection-main-item" >
                 <Link to="/fweb"><img src={require('../img/web_temp/moderna.png')} className="col-img animate__animated animate__zoomIn" alt="col"/>
             </Link>
             </div>
-             <div className="collection-main-item">
+             <div className="collection-main-item" >
                 <Link to="/fweb"><img src={require('../img/web_temp/multi.png')} className="col-img animate__animated animate__zoomIn" alt="col"/>
             </Link>
             </div>
-            <div className="collection-main-item">
+            <div className="collection-main-item" >
                 <Link to="/fweb"><img src={require('../img/web_temp/music.png')} className="col-img animate__animated animate__zoomIn" alt="col"/>
             </Link>
             </div>
-            <div className="collection-main-item">
+            <div className="collection-main-item" >
                 <Link to="/fweb"><img src={require('../img/web_temp/myfmly.png')} className="col-img animate__animated animate__zoomIn" alt="col"/>
             </Link>
             </div>
 
-            <div className="collection-main-item">
+            <div className="collection-main-item" >
                 <Link to="/fweb"><img src={require('../img/web_temp/myport.png')} className="col-img animate__animated animate__zoomIn" alt="col"/>
             </Link>
             </div>
-            <div className="collection-main-item">
+            <div className="collection-main-item" >
                 <Link to="/fweb"><img src={require('../img/web_temp/onepage.png')} className="col-img animate__animated animate__zoomIn" alt="col"/>
             </Link>
             </div>
-            <div className="collection-main-item">
+            <div className="collection-main-item" >
                 <Link to="/fweb"><img src={require('../img/web_temp/presento.png')} className="col-img animate__animated animate__zoomIn" alt="col"/>
             </Link>
             </div>
-            <div className="collection-main-item">
+            <div className="collection-main-item" >
                 <Link to="/fweb"><img src={require('../img/web_temp/remember.png')} className="col-img animate__animated animate__zoomIn" alt="col"/>
             </Link>
             </div>
 
-            <div className="collection-main-item">
+            <div className="collection-main-item" >
                 <Link to="/fweb"><img src={require('../img/web_temp/rock.png')} className="col-img animate__animated animate__zoomIn" alt="col"/>
             </Link>
             </div>
-            <div className="collection-main-item">
+            <div className="collection-main-item" >
                 <Link to="/fweb"><img src={require('../img/web_temp/safecam.png')} className="col-img animate__animated animate__zoomIn" alt="col"/>
             </Link>
             </div>
-            <div className="collection-main-item">
+            <div className="collection-main-item" >
                 <Link to="/fweb"><img src={require('../img/web_temp/sailor.png')} className="col-img animate__animated animate__zoomIn" alt="col"/>
             </Link>
             </div>
-            <div className="collection-main-item">
+            <div className="collection-main-item" >
                 <Link to="/fweb"><img src={require('../img/web_temp/shuffle.png')} className="col-img animate__animated animate__zoomIn" alt="col"/>
             </Link>
             </div>
-            <div className="collection-main-item">
+            <div className="collection-main-item" >
                 <Link to="/fweb"><img src={require('../img/web_temp/simple.png')} className="col-img animate__animated animate__zoomIn" alt="col"/>
             </Link>
             </div>
-            <div className="collection-main-item">
+            <div className="collection-main-item" >
                 <Link to="/fweb"><img src={require('../img/web_temp/softland.png')} className="col-img animate__animated animate__zoomIn" alt="col"/>
             </Link>
             </div>
-            <div className="collection-main-item">
+            <div className="collection-main-item" >
                 <Link to="/fweb"><img src={require('../img/web_temp/solar.png')} className="col-img animate__animated animate__zoomIn" alt="col"/>
             </Link>
             </div>
-            <div className="collection-main-item">
+            <div className="collection-main-item" >
                 <Link to="/fweb"><img src={require('../img/web_temp/space.png')} className="col-img animate__animated animate__zoomIn" alt="col"/>
             </Link>
             </div>
-            <div className="collection-main-item">
+            <div className="collection-main-item" >
                 <Link to="/fweb"><img src={require('../img/web_temp/squad.png')} className="col-img animate__animated animate__zoomIn" alt="col"/>
             </Link>
             </div>
@@ -323,15 +326,15 @@ const Website = () => {
                 <Link to="/fweb"><img src={require('../img/web_temp/tropiko.png')} className="col-img animate__animated animate__zoomIn" alt="col"/>
             </Link>
             </div>
-            <div className="collection-main-item">
+            <div className="collection-main-item" >
                 <Link to="/fweb"><img src={require('../img/web_temp/upconst.png')} className="col-img animate__animated animate__zoomIn" alt="col"/>
             </Link>
             </div>
-            <div className="collection-main-item">
+            <div className="collection-main-item" >
                 <Link to="/fweb"><img src={require('../img/web_temp/yummy.png')} className="col-img animate__animated animate__zoomIn" alt="col"/>
             </Link>
             </div>
-            <div className="collection-main-item">
+            <div className="collection-main-item" >
                 <Link to="/fweb"><img src={require('../img/web_temp/zenblog.png')} className="col-img animate__animated animate__zoomIn" alt="col"/>
             </Link>
             </div>
@@ -341,6 +344,59 @@ const Website = () => {
 
 <br/>
 <br/>
+
+
+<section className="collection-main myUL" style={{display:"none"}} id="ecm">
+            <div className="collection-main-item">
+                    <Link to="/fweb#efl"><img src={require('../img/web_temp/eflyer.png')} className="col-img animate__animated animate__zoomIn" alt="col"/>
+                    </Link>
+            </div>
+            <div className="collection-main-item">
+                    <Link to="/fweb#gp"><img src={require('../img/web_temp/gp.png')} className="col-img animate__animated animate__zoomIn" alt="col"/>
+            </Link>
+            </div>
+            <div className="collection-main-item">
+            <Link to="/fweb#crft"><img src={require('../img/web_temp/caraft.png')} className="col-img animate__animated animate__zoomIn" alt="col"/>
+            </Link>
+            </div>
+
+            <div className="collection-main-item">
+                <Link to="/fweb#eb"><img src={require('../img/web_temp/ebusiness.png')} className="col-img animate__animated animate__zoomIn" alt="col"/>
+            </Link>
+            </div>
+
+            <div className="collection-main-item">
+                <Link to="/fweb#ldg"><img src={require('../img/web_temp/lodge.png')} className="col-img animate__animated animate__zoomIn" alt="col"/>
+            </Link>
+            </div>
+            <div className="collection-main-item">
+                <Link to="/fweb#six"><img src={require('../img/web_temp/sixteen.png')} className="col-img animate__animated animate__zoomIn" alt="col"/>
+            </Link>
+            </div>
+            <div className="collection-main-item">
+                <Link to="/fweb#ust"><img src={require('../img/web_temp/ustora.png')} className="col-img animate__animated animate__zoomIn" alt="col"/>
+            </Link>
+            </div> 
+           
+            
+            <div className="collection-main-item">
+                <Link to="/fweb"><img src={require('../img/web_temp/furni.png')} className="col-img animate__animated animate__zoomIn" alt="col"/>
+            </Link>
+            </div>
+          
+       
+            <div className="collection-main-item">
+                <Link to="/fweb"><img src={require('../img/web_temp/malefash.png')} className="col-img animate__animated animate__zoomIn" alt="col"/>
+            </Link>
+            </div>
+            <div className="collection-main-item">
+                <Link to="/fweb"><img src={require('../img/web_temp/tropiko.png')} className="col-img animate__animated animate__zoomIn" alt="col"/>
+            </Link>
+            </div>
+            
+
+        </section>
+
         <div className="col-lg-8 text-center text-lg-right animate__animated animate__fadeInLeft">
         <div className="d-inline-flex align-items-center">
             <div className="d-inline-flex flex-column text-center pr-3 ">

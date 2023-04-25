@@ -5,15 +5,28 @@ import { Link } from "react-router-dom";
 import ScrollToTop from "react-scroll-to-top";
 import TNav from "../component/topnav";
 
-
  
     
+function mySearch() {
+  var input, filter, ul, div, a, i, txtValue;
+  input = document.getElementById("srch");
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("search-engine");
+  div = ul.getElementsByTagName("div");
+  for (i = 0; i < div.length; i++) {
+      a = div[i].getElementsByTagName("a")[0];
+      txtValue = a.textContent || a.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          div[i].style.display = "";
+      } else {
+          div[i].style.display = "none";
+        }
+  }
+}
 
 
 
 function TutPage() {
-  alert("Sign-in for more");
-
     return(
         <>
         <TNav />
@@ -42,40 +55,45 @@ function TutPage() {
       </div>
     </div>
       
+
+    
     <div>
-    <h6 style={{color:"#E45F4E"}}>Coding Languagess</h6>
+    <h6 style={{color:"#E45F4E"}}>Coding Languages</h6>
     </div>
     <hr style={{border: "0.5px solid lightgrey"}}/>
 
-{/* 
-    
-    <Link to="/tut_html"><div className="list-p" style={{backgroundColor:"aqua"}}>
-                <img src={require('../img/loader.gif')} className="list-img align-items-center" alt="image" />
-                
-                <h1 className="c-a">HTML</h1>
-                
-            </div>
-        </Link>
-        
-        <Link to="/tut_html"><div className="list-p" style={{backgroundColor:"yellow"}}>
-                <img src={require('../img/loader.gif')} className="list-img align-items-center" alt="image" />
-                
-                <h1 className="c-a">CSS</h1>
-                
-            </div>
-        </Link> */}
-            
 
+<div className="scrh-bar">    
+    <input type="text" id="srch" onKeyUp={mySearch} placeholder="Search code language..." className="scrh-code" title="type the code language" />
+    <i className="fa fa-search"></i>
+</div>
 
-            <section className="scurve">
-              <div className="curve">
-                <p>Hi</p>
-              </div>
-            </section>
-
-
-            <br/>
-
+<div>
+  <ul id="search-engine">
+     <Link to="/tut_html"><div className="cd-lang">
+      <a>HTML</a>
+      </div>
+      </Link>
+     <div className="cd-lang">
+      <a>PYTHON</a>
+     </div>
+     <div className="cd-lang">
+      <a>CSS</a>
+      </div>
+      <div className="cd-lang">
+      <a>REACT</a>
+      </div>
+      <div className="cd-lang">
+      <a>JAVA</a>
+      </div>
+      <div className="cd-lang">
+      <a>JS</a>
+      </div>
+      <div className="cd-lang">
+      <a>KOTLIN</a>
+      </div>
+  </ul>
+</div>
         <ScrollToTop smooth />
         <div className="navbarc" id="myNavbarc">
              <Link to="/"><a className="fa fa-home" title="Home"><br/><small className="smaller">Home</small></a></Link>

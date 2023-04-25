@@ -21,8 +21,7 @@ const Contact = () => {
     <br/>
 
     <div className="page-heading products-head header-text animate__animated animate__zoomIn">
-      <div className="container" >
-        <div className="row">
+      
           <div className="col-md-12">
             <div className="text-content">
               <h4>Contact</h4>
@@ -30,8 +29,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-      </div>
-    </div>
+      
       
       <div className="contactdiv">
       <div className="container-fluid pt-5">

@@ -23,15 +23,12 @@ function Library() {
     
 
     <div className="page-heading products-heading header-text animate__animated animate__zoomIn">
-      <div className="container" >
-        <div className="row">
+    
           <div className="col-md-12">
             <div className="text-content">
               <h2>Library</h2>
             </div>
-          </div>
         </div>
-      </div>
     </div>
 
 
@@ -43,7 +40,7 @@ function Library() {
         <hr style={{border:'1px solid lightgrey'}}/>
         
         <h5 className="txt">&emsp;&emsp;Books</h5>
-        <section className="lb-main" id="myUL">
+        <section className="lb-main myUL">
             <div className="lb-main-item">
                     <Link to="/main"><img src={require('../img/lap.png')} className="lib-img" alt="lib"/>
                     

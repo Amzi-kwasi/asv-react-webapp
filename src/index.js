@@ -22,13 +22,14 @@ import Website from "./Collections/Website";
 import Dashboard from "./Collections/dashboard";
 import FWeb from "./Collections/FWeb_dwn";
 import Blog from "./pages/blog";
-import Ecom from "./Collections/ecom_web";
 import Note from "./Collections/note";
+import Notepad from "./Collections/notepad";
 import Code from "./Collections/code";
 import Doc from "./Collections/document";
 import Gly from "./Collections/gallery/gallery";
 import TutPage from "./Library/tut";
 import TutHtml from "./Library/tut_html";
+import TutEdi from "./Library/tut_edi";
 
 
 export default function App() {
@@ -57,14 +58,15 @@ export default function App() {
           <Route path="dashbrd" element={<Dashboard />} />
           <Route path="fweb" element={<FWeb />} />
           <Route path="blog" element={<Blog />} />
-          <Route path="ecom_web" element={<Ecom />} />
           <Route path="note" element={<Note />} />
+          <Route path="notepad" element={<Notepad />} />
           <Route path="code" element={<Code />} />
           <Route path="doc" element={<Doc />} />
           <Route path="gly" element={<Gly />} />
           <Route path="lrn" element={<LearnCd />} />
           <Route path="tut_pg" element={<TutPage />} />
           <Route path="tut_html" element={<TutHtml />} />
+          <Route path="tut_edi" element={<TutEdi />} />
         </Route>
       </Routes>
     </BrowserRouter>

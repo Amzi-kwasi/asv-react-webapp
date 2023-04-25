@@ -140,7 +140,18 @@ const Collection = () => {
         <div className="col-lg-4 " title="Online Note Editor">
             <Link to="/note"><div className=" list">
                 <img src={require('../img/note.png')} className="list-img align-items-center" alt="image" />
-                <h className="h">Note Editor</h>
+                <h className="h">Online Note Editor</h>
+                <p className="h-a">Learn more</p>
+                <p className="h-2">2023</p>
+            </div>
+            </Link>
+        </div>
+
+         
+        <div className="col-lg-4 " title="Online Note Editor">
+            <Link to="/notepad"><div className=" list">
+                <img src={require('../img/note.png')} className="list-img align-items-center" alt="image" />
+                <h className="h">Notepad</h>
                 <p className="h-a">Learn more</p>
                 <p className="h-2">2023</p>
             </div>

@@ -66,11 +66,22 @@ function Compile() {
     code.close();
 }
  
+function Copyme() {
+    // Get the text field
+    var copied = document.getElementById("cpy")
+    var copyText = "<!DOCTYPEhtml>\n<html>\n<head>\n<title>\nPage Title\n</title>\n</head>\n<body>\n<h1>This is a heading tag</h1>\n<p>This is a paragraph tag</p>\n</body>\n</html>"
+     // Copy the text inside the text field
+    navigator.clipboard.writeText(copyText);
+  
+    // Alert the copied text
+    if (copied.innerHTML == "Copy"){
+        copied.innerHTML = "Copied"
+    }
+    
+  }
 
-const code= "<!DOCTYPEhtml>\n<html>\n<head>\n<title>\nPage Title\n</title>\n</head>\n<body>\n<h1>This is a heading tag</h1>\n<p>This is a paragraph tag</p>\n</body>\n</html>"
 
-
-const TutHtml = () => {
+const TutEdi = () => {
     return (
         <>
         
@@ -103,10 +114,9 @@ const TutHtml = () => {
   <div className="overlay-content">
   
     <ul>
-    <a className="tut-act">HTML Introduction</a>
-  <Link to="/tut_edi">
-  <a>HTMLEditors</a>
-  </Link>
+    <h6>HTML Tutorial</h6>
+   <Link to="/tut_html"><a>HTML Introduction</a></Link>
+  <a className="tut-act">HTMLEditors</a>
   <a>HTML Elements</a>
   <a>HTML Attributes</a>
   <a>HTML Headings</a>
@@ -167,11 +177,9 @@ const TutHtml = () => {
   
     <div class="main">
 <div class="sidenav">
-<h6>HTML Tutorial</h6> 
-  <a className="tut-act">HTML Introduction</a>
-  <Link to="/tut_edi">
-  <a>HTMLEditors</a>
-  </Link>
+   <h6>HTML Tutorial</h6>
+   <Link to="/tut_html"><a>HTML Introduction</a></Link>
+  <a className="tut-act">HTMLEditors</a>
   <a>HTML Elements</a>
   <a>HTML Attributes</a>
   <a>HTML Headings</a>
@@ -208,51 +216,97 @@ const TutHtml = () => {
   <a>HTML Form Attributes</a>
 </div>
 
-  <h6 style={{fontSize:"40px", textAlign:"left", fontWeight:"400", margin:"10px 0" , color:"green"}}>HTML Introduction</h6>
+  <h6 style={{fontSize:"40px", textAlign:"left", fontWeight:"400", margin:"10px 0" , color:"green"}}>HTML Editors</h6>
   <br/>
-<button style={{background:"#3bb0de",color:"white", borderRadius:"50%", width:"50px" , height:"50px", border:"none"}}>
+<Link to="/tut_html"><button style={{background:"#3bb0de",color:"white", borderRadius:"50%", width:"50px" , height:"50px", border:"none"}}>
   <i className="fa fa-chevron-left"></i>
   </button>
-  <Link to="/tut_edi">
+  </Link>
   <button style={{background:"#3bb0de",color:"white", borderRadius:"50%", width:"50px" , height:"50px", border:"none",position:"absolute", right:"10px"}}>
   <i className="fa fa-chevron-right"></i>
   </button>
-  </Link>
   <br/>
   <br/>
   <div className="html_int">
   
-  <p>HTML is the standard markup language for Web pages.</p>
-
-<p>With HTML you can create your own Website.</p>
-
-<p>HTML is easy to learn - You will enjoy it!</p>
-
+  <p>A simple text editor is all you need to learn HTMl.</p>
   </div>
  
 
  
 <br/>
 <br/>
- <h3 style={{color:"orange"}}>Easy to learn HTML using our "Try it Yourself" button</h3>
- <p>As a beginner, our "Try it Yourself" can help you edit the html code to see the result</p>
+ <h3 style={{color:"orange"}}>Simply Learn HTML Using Notepad or our <Link to="/code"><a>CodeEditor</a></Link></h3>
+ <p>To begin a work you need the right tools for the work. This applies in learning HTML.
+    To create webpages you need to have a good HTML editor.
+ </p>
+ <p>As a beginner,we recommend you to use our <Link to="/code"><a>CodeEditor</a></Link> or a PC Notepad.
+ </p>
+ <p>To be able to create your first page using Notepad, please follow the steps below.</p>
 
+<br/>
+<hr/>
+<br/>
 
-<h5 className="green">Example</h5>
+<h3 style={{color:"brown"}}>Using Notepad</h3>
+<br/>
+<h4 style={{color:"#3bb0de"}}>Step 1: Open Notepad (PC)</h4>
+<p>Open the Start Menu</p>
+<p>On the start menu type Notepad(Windows 8 or earlier)</p>
+<hr/>
+<h4 style={{color:'#3bb0de'}}>Step 2: Write Some HTML</h4>
+<p>Below is an HTML code. Copy it into the Notepad.</p>
 
-  <div className="html_ed">
+  <div className="html_ed" value="HTML Code" id="copytext">
+    <a onClick={Copyme} id="cpy" style={{color:"green",right:"40px",cursor:"pointer",fontSize:"15px", position:"absolute"}}>
+        Copy
+        </a>
+<br/>
 &lt;!DOCTYPE html&gt;<br/>
 &lt;html&gt;<br/>&lt;head&gt;<br/>&lt;title&gt;Page Title&lt;/title&gt;<br/>
 &lt;/head&gt;<br/>&lt;body&gt;<br/><br/>&lt;h1&gt;This is a Heading tag&lt;/h1&gt;<br/>&lt;p&gt;This is a paragraph tag.&lt;/p&gt;<br/><br/>
 &lt;/body&gt;<br/>&lt;/html&gt;
   </div>
-<button style={{backgroundColor:"#3bb0de", width:"200px", height:"50px",borderRadius:"10px", border:"none",color:"white", padding:"10px 12px"}} onClick={tryitYourself}>
-  Try it Yourself
-  </button>
 
   <br/>
-
+<hr/>
+<h4 style={{color:"#3bb0de"}}>Step 3: Save the HTML Page</h4>
+<p>Save the html file on the computer. You can choose to save it in your "Document" folder. Select <b>File &gt; Save as</b> in the Notepad menu.</p>
+<p>Name the file "index.<mark>html</mark>". The ".html" shows that you are creating a webpage. So dont forget to save it with the ".html".</p>
 <br/>
+<hr/>
+
+<h4 style={{color:"#3bb0de"}}>Step 4: Open the HTML page in your Browser</h4>
+<p>Open the saved file in your browser by double clicking on it, or right click on the file and choose "Open with" and choose your favorite browser.</p>
+<br/>
+<p>There are many code editor on the net.</p>
+<p>The list below shows some professional code editors you can use now.</p>
+<ul>
+    <li style={{color:"orange"}}>Visual Studio(PC) IDE</li>
+    <li style={{color:"orange"}}>Sublime Text(PC)</li>
+    <li style={{color:"orange"}}>Atom</li>
+    <li style={{color:"orange"}}>TextMate</li>
+    <li style={{color:"orange"}}>Komodo Edit</li>
+    <li style={{color:"orange"}}>TextPad</li>
+    <li style={{color:"orange"}}>Text Edit</li>
+    <li style={{color:"orange"}}>Metapad</li>
+    <li style={{color:"orange"}}>Multi-Edit</li>
+    <li style={{color:"orange"}}>E</li>
+    <li style={{color:"orange"}}>Kite</li>
+    <li style={{color:"orange"}}>RJ TextEd</li>
+    <li style={{color:"orange"}}>BlueFish</li>
+    <li style={{color:"orange"}}>... and many more</li>
+
+</ul>
+
+
+<h5 style={{color:"#3bb0de"}}>Why Use ASV Code Editor</h5>
+<p>Asvan-Launcher website has a built-in code editor that can help beginners to easily learn HTML</p>
+<p>It is very easy to use and it is user-friendly too</p>
+
+<p>Just give it a try</p>
+<p>Path:<a style={{color:"#3bb0de"}}>Tools &gt;<Link to="/code"><a>Code Editor</a></Link></a></p>
+<b>Click on it to see how it works</b>
 
 <FroalaEditorComponent tag='textarea'/>
 
@@ -294,7 +348,25 @@ const TutHtml = () => {
 
 <div className="editor split" id="editor">
   <textarea id="html" style={{whiteSpace:"pre-line"}} onKeyUp={Compile} placeholder="type your code here ...">
-  {code}
+  &lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;
+Page Title
+&lt;/title&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+&lt;h1&gt;
+This is a Heading tag
+&lt;/h1&gt;
+&lt;p&gt;
+This is a paragraph tag.
+&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+
   </textarea>
     </div>
 
@@ -322,4 +394,4 @@ const TutHtml = () => {
 }
 
 
-export default TutHtml;
+export default TutEdi;

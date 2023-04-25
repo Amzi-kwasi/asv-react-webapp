@@ -110,8 +110,29 @@
   [data-theme="dark"] fieldset{
     background-color: #1a1a1a;
   }
+  [data-theme="dark"] .editor textarea{
+    background-color: #1a1a1a;
+    color:white;
+  }
   
   [data-theme="dark"] .navbarc a{
+    color: white;
+  }
+  [data-theme="dark"] .html_ed{
+    background-color: #262626;
+  }
+
+
+
+  [data-theme="dark"] .overlay{
+    background-color: #555454;
+  }
+
+  [data-theme="dark"] .sidenav{
+    background-color: #555454;
+  }
+
+  [data-theme="dark"] .overlay .closebtn{
     color: white;
   }
   
