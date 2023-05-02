@@ -6,9 +6,12 @@ function Sml(){
     document.getElementById("font").style.fontSize="16px";
 }
 
+
 function Mdm(){
     document.getElementById("font").style.fontSize="25px";
 }
+
+
 function Big(){
     document.getElementById("font").style.fontSize="35px";
 
@@ -30,7 +33,7 @@ function Hardware() {
 <br className="br"/>
 <br className="br"/>
     <div className="sub-nav">
-        <Link to="/library"><a style={{cursor: "pointer" , color:"#009000"}}>Library</a><i className="fa fa-angle-right" style={{color:"green"}}></i></Link><Link to="/main"><a style={{cursor: "pointer",color:"#009000"}}>Computer System</a><i className="fa fa-angle-right" style={{color:"green"}}></i></Link><a>Hardware Component</a>
+        <Link to="/library"><a style={{cursor: "pointer" , color:"#009000" , fontSize:"16px"}}>Library</a><i className="fa fa-angle-right" style={{color:"green"}}></i></Link><Link to="/main"><a style={{cursor: "pointer",color:"#009000"}}>Computer System</a><i className="fa fa-angle-right" style={{color:"green"}}></i></Link><a style={{ fontSize:"16px"}}>Hardware Component</a>
     </div>
     <br/>
     <br/>

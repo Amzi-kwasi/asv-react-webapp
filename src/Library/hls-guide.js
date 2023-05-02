@@ -30,7 +30,7 @@ function Hls() {
     <br className="br"/>
     <br className="br"/>
     <div className="sub-nav">
-        <Link to="/library"><a style={{cursor: "pointer" , color:"#009000"}}>Library</a><i className="fa fa-angle-right" style={{color:"green"}}></i></Link><Link to="/health"><a style={{cursor: "pointer",color:"#009000"}}>Healthy Lifestyle</a><i className="fa fa-angle-right" style={{color:"green"}}></i></Link><a>Healthy Living Guide</a>
+        <Link to="/library"><a style={{cursor: "pointer" , color:"#009000" , fontSize:"16px"}}>Library</a><i className="fa fa-angle-right" style={{color:"green"}}></i></Link><Link to="/health"><a style={{cursor: "pointer",color:"#009000"}}>Healthy Lifestyle</a><i className="fa fa-angle-right" style={{color:"green"}}></i></Link><a style={{ fontSize:"16px"}}>Healthy Living Guide</a>
     </div>
     <br/>
     <br/>

@@ -39,7 +39,7 @@ const FWeb = () => {
     <br className="br"/>
     <br className="br"/>
     <div className="sub-nav">
-        <Link to="/collection"><a style={{cursor: "pointer" , color:"#009000"}}>Tools</a><i className="fa fa-angle-right" style={{color:"green"}}></i></Link><Link to="/website"><a style={{cursor: "pointer" , color:"#009000"}}>Website</a><i className="fa fa-angle-right" style={{color:"green"}}></i></Link><a>Free Website Temp</a>
+        <Link to="/collection"><a style={{cursor: "pointer" , color:"#009000" , fontSize:"16px"}}>Tools</a><i className="fa fa-angle-right" style={{color:"green"}}></i></Link><Link to="/website"><a style={{cursor: "pointer" , color:"#009000" , fontSize:"16px"}}>Website</a><i className="fa fa-angle-right" style={{color:"green"}}></i></Link><a style={{ fontSize:"16px"}}>Free Website Temp</a>
     </div>
     <br/>
     <br/>

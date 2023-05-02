@@ -65,7 +65,7 @@ const handleChange = e => {
 <br className="br"/>
 <br className="br"/>
     <div className="sub-nav">
-        <Link to="/collection"><a style={{cursor:'pointer' , color:'#009000'}}>Tools</a><i className="fa fa-angle-right" style={{color:"green"}}></i></Link><a>Document</a>
+        <Link to="/collection"><a style={{cursor:'pointer' , color:'#009000'}}>Tools</a><i className="fa fa-angle-right" style={{color:"green"}}></i></Link><a style={{ fontSize:"16px"}}>Document</a>
     </div>
     <br/>
     <br/>

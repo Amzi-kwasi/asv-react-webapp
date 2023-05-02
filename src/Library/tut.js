@@ -40,7 +40,7 @@ function TutPage() {
     <br className="br"/>
     <br className="br"/>
     <div className="sub-nav">
-        <Link to="/library"><a style={{cursor: "pointer" , color:"#009000"}}>Library</a><i className="fa fa-angle-right" style={{color:"green"}}></i></Link><Link to="/lrn"><a>Learn to Code</a></Link>
+        <Link to="/library"><a style={{cursor: "pointer" , color:"#009000" , fontSize:"16px"}}>Library</a><i className="fa fa-angle-right" style={{color:"green"}}></i></Link><Link to="/lrn"><a>Learn to Code</a></Link>
     </div>
     <br/>
     <div className="page-heading tut-head header-text animate__animated animate__zoomIn">

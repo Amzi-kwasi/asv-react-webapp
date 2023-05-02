@@ -19,7 +19,7 @@ function Health() {
     <br className="br"/>
     <br className="br"/>
     <div className="sub-nav">
-        <Link to="/library"><a style={{cursor: "pointer" , color:"#009000"}}>Library</a><i className="fa fa-angle-right" style={{color:"green"}}></i></Link><a>Healthy Lifestyle</a>
+        <Link to="/library"><a style={{cursor: "pointer" , color:"#009000" , fontSize:"16px"}}>Library</a><i className="fa fa-angle-right" style={{color:"green"}}></i></Link><a style={{ fontSize:"16px"}}>Healthy Lifestyle</a>
     </div>
     <br/>
     <br/>

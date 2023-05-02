@@ -1,7 +1,7 @@
-import { useEffect, useState } from "react";
-import uuid from "react-uuid";
-import Main from "./main/Main";
-import Sidebar from "./sidebar/Sidebar";
+// import { useEffect, useState } from "react";
+// import uuid from "react-uuid";
+// import Main from "./main/Main";
+// import Sidebar from "./sidebar/Sidebar";
 import "./note.css";
 import "../sys.css";
 import "../asv.css";
@@ -10,46 +10,46 @@ import ScrollToTop from "react-scroll-to-top"
 import TNav from "../component/topnav";
 
 function Notepad() {
-  const [notes, setNotes] = useState(
-    localStorage.notes ? JSON.parse(localStorage.notes) : []
-  );
-  const [activeNote, setActiveNote] = useState(false);
+  // const [notes, setNotes] = useState(
+  //   localStorage.notes ? JSON.parse(localStorage.notes) : []
+  // );
+  // const [activeNote, setActiveNote] = useState(false);
 
-  useEffect(() => {
-    localStorage.setItem("notes", JSON.stringify(notes));
-  }, [notes]);
+  // useEffect(() => {
+  //   localStorage.setItem("notes", JSON.stringify(notes));
+  // }, [notes]);
 
-  const onAddNote = () => {
-    const newNote = {
-      id: uuid(),
-      title: "Untitled Note",
-      body: "",
-      lastModified: Date.now(),
-    };
+  // const onAddNote = () => {
+  //   const newNote = {
+  //     id: uuid(),
+  //     title: "Untitled Note",
+  //     body: "",
+  //     lastModified: Date.now(),
+  //   };
 
-    setNotes([newNote, ...notes]);
-    setActiveNote(newNote.id);
-  };
+  //   setNotes([newNote, ...notes]);
+  //   setActiveNote(newNote.id);
+  // };
 
-  const onDeleteNote = (noteId) => {
-    setNotes(notes.filter(({ id }) => id !== noteId));
-  };
+  // const onDeleteNote = (noteId) => {
+  //   setNotes(notes.filter(({ id }) => id !== noteId));
+  // };
 
-  const onUpdateNote = (updatedNote) => {
-    const updatedNotesArr = notes.map((note) => {
-      if (note.id === updatedNote.id) {
-        return updatedNote;
-      }
+  // const onUpdateNote = (updatedNote) => {
+  //   const updatedNotesArr = notes.map((note) => {
+  //     if (note.id === updatedNote.id) {
+  //       return updatedNote;
+  //     }
 
-      return note;
-    });
+  //     return note;
+  //   });
 
-    setNotes(updatedNotesArr);
-  };
+  //   setNotes(updatedNotesArr);
+  // };
 
-  const getActiveNote = () => {
-    return notes.find(({ id }) => id === activeNote);
-  };
+  // const getActiveNote = () => {
+  //   return notes.find(({ id }) => id === activeNote);
+  // };
 
   return (
     <>
@@ -65,18 +65,19 @@ function Notepad() {
 <br className="br"/>
 <br className="br"/>
     <div className="sub-nav">
-        <Link to="/collection"><a style={{cursor: "pointer" , color:"#009000"}}>Tools</a><i className="fa fa-angle-right" style={{color:"green"}}></i></Link><a>Note</a>
+        <Link to="/collection"><a style={{cursor: "pointer" , color:"#009000" , fontSize:"16px"}}>Tools</a><i className="fa fa-angle-right" style={{color:"green"}}></i></Link><a style={{ fontSize:"16px"}}>Notepad</a>
     </div>
     <br/>
     <br/>
-      <Sidebar
+
+      {/* <Sidebar
         notes={notes}
         onAddNote={onAddNote}
         onDeleteNote={onDeleteNote}
         activeNote={activeNote}
         setActiveNote={setActiveNote}
       />
-      <Main activeNote={getActiveNote()} onUpdateNote={onUpdateNote} />
+      <Main activeNote={getActiveNote()} onUpdateNote={onUpdateNote} /> */}
     
       <ScrollToTop smooth/>
        <div className="navbarc" id="myNavbarc">

@@ -1,7 +1,7 @@
-import "../cookie.css";
 import ScrollToTop from "react-scroll-to-top";
 import {Link} from "react-router-dom";
 import Footer from "../Footer";
+import Cookie from "../component/cookie";
 import 'froala-editor/css/froala_style.min.css';
 import 'froala-editor/css/froala_editor.pkgd.min.css';
 import FroalaEditorComponent from 'react-froala-wysiwyg';
@@ -32,16 +32,6 @@ function myResult(){
  document.getElementById("bck").classList.toggle('hide');
 }
 
-
-
-
-
-
-// Set cookie consent
-function acceptCookieConsent(){
-	
-	document.getElementById("cookieNotice").style.display = "none";
-}
 
 
 function openNav() {
@@ -165,8 +155,8 @@ const TutHtml = () => {
         
     </div> */}
   
-    <div class="main">
-<div class="sidenav">
+    <div className="main">
+<div className="sidenav">
 <h6>HTML Tutorial</h6> 
   <a className="tut-act">HTML Introduction</a>
   <Link to="/tut_edi">
@@ -254,7 +244,7 @@ const TutHtml = () => {
 
 <br/>
 
-<FroalaEditorComponent tag='textarea'/>
+<FroalaEditorComponent tag='textarea' style={{height:"130px"}}/>
 
 
 <h3>HTML Exercise</h3>
@@ -267,22 +257,10 @@ const TutHtml = () => {
   <Footer />
 
 </div>
-        
-<div id="cookieNotice" className="light display-right" >
-  <div id="closeIcon" >
-  </div>
-  <div className="title-wrap">
-    <h4>Cookie Consent</h4>
-  </div>
-  <div className="content-wrap">
-    <div className="msg-wrap">
-      <p>This website uses cookies or similar technologies, to enhance your browsing experience and provide personalized recommendations. By continuing to use our website, you agree to our  <a style={{color:"#115cfa"}}>Privacy Policy</a></p>
-      <div className="btn-wrap">
-        <button className="btn-primary" onClick={acceptCookieConsent} >Accept</button>
-      </div>
-    </div>
-  </div>
-</div>
+
+
+
+<Cookie />
 
 
 </div>

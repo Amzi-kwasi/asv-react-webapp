@@ -22,7 +22,7 @@ const Blog = () => {
     <br className="br"/>
     <br className="br"/>
     <div className="sub-nav">
-        <Link to="/"><a style={{cursor: "pointer" , color:"#009000"}}>Home</a><i className="fa fa-angle-right" style={{color:"green"}}></i></Link><a>Blog</a>
+        <Link to="/"><a style={{cursor: "pointer" , color:"#009000" , fontSize:"16px"}}>Home</a><i className="fa fa-angle-right" style={{color:"green"}}></i></Link><a style={{ fontSize:"16px"}}>Blog</a>
     </div>
     <br/>
        

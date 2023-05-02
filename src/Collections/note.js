@@ -27,7 +27,7 @@ export default function Note() {
 <br className="br"/>
 <br className="br"/>
     <div className="sub-nav">
-        <Link to="/collection"><a style={{cursor: "pointer" , color:"#009000"}}>Tools</a><i className="fa fa-angle-right" style={{color:"green"}}></i></Link><a>Note</a>
+        <Link to="/collection"><a style={{cursor: "pointer" , color:"#009000" , fontSize:"16px"}}>Tools</a><i className="fa fa-angle-right" style={{color:"green"}}></i></Link><a style={{ fontSize:"16px"}}>Note</a>
     </div>
     <br/>
     <br/>
