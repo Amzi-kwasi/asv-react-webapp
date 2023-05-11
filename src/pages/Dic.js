@@ -1,37 +1,24 @@
-import Nav from "../component/Nav";
-import React from "react";
+import { useState, useEffect } from "react";
 import TNav from "../component/topnav";
 import { Link } from "react-router-dom";
 
-class Dic extends React.Component {
-   
-    // Constructor 
-    constructor(props) {
-        super(props);
-   
-        this.state = {
-            items: [],
-            DataisLoaded: false
-        };
-    }
-   
-    // ComponentDidMount is used to
-    // execute the code 
-    componentDidMount() {
-        fetch(
-"https://jsonplaceholder.typicode.com/users")
-            .then((res) => res.json())
-            .then((json) => {
-                this.setState({
-                    items: json,
-                    DataisLoaded: true
-                });
-            })
-    }
-    render() {
-        const { DataisLoaded, items } = this.state;
-        if (!DataisLoaded) return <div>
-          <TNav />
+
+
+
+
+function Dic(){
+
+var path = "https://dummyjson.com/products";
+var [dic, setDic]= useState([]);
+
+useEffect(() => {
+fetch(path)
+.then(main => main.json())
+.then(main => setDic(main.products))
+},[])
+        return (
+          <>
+      <TNav />
           <div className="topnav" id='mxw_nav'>
         <Link to="/"><a title="Home"><i className='fa fa-home'></i>&ensp;Home</a></Link>
         <Link to="/library"><a title="Library"><i className='fa fa-book'></i>&ensp;Library</a></Link>
@@ -42,45 +29,34 @@ class Dic extends React.Component {
     
           <br/>
           <br/>
-            <h4 className="pls">Loading...</h4>
-            
-            <div className="navbarc" id="myNavbarc">
+          <br/>
+          <br/> 
+
+      {dic.map((items) => (
+      
+<div className="row div-row" key={items.id}>
+  <div className=" col-lg-4 ">
+          <img src={items.thumbnail} className="align-items-center" alt=""/>
+          <h3>{items.title}</h3>
+          <h5>{items.description}</h5>
+          <h4 style={{color:"blueviolet`"}}>{items.brand}</h4>
+          <h5 style={{color:"red"}}>${items.price}</h5>
+  </div>
+  </div>
+      ))}
+
+                
+        <div className="navbarc" id="myNavbarc">
              <Link to="/"><a className="fa fa-home" title="Home"><br/><small className="smaller">Home</small></a></Link>
              <Link to="/library"><a className="fa fa-book" title="library"><br/><small className="smaller">Library</small></a></Link>
              <Link to="/contact"><a  className="fa fa-phone" title="contact"><br/><small className="smaller">Contact</small></a></Link>
              <Link to="/dic"><a className="fa fa-search-plus act" title="search for"><br/><small className="smaller">ITD</small></a></Link>
              <Link to="/collection"><a className="fa fa-clone" title="collection"><br/><small className="smaller">Tools</small></a></Link>
-        </div>
+        </div> 
 
-             </div> 
-   
-        return (
-          <>
-        <div className = "App">
-            <h1>List of abbreviations</h1>  {
-                items.map((item) => ( 
-                    <table className="table">
-                    <tr>
-                    <th className="th">Abbreviation</th>
-                    <th >Meaning</th>
-                    <th >Sup</th>
-                    </tr>
-                    <tr key = { item.id }>
-                    <td>{ item.username }</td> 
-                    <td>{ item.name }</td> 
-                    <td>{ item.email }</td> 
-                    </tr>
-                    </table>
-                ))
-            }
-        </div>
-        
-    
         </>
     );
-}
-}
-   
 
+}
   
   export default Dic;
