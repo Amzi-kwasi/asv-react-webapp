@@ -2,8 +2,15 @@ import { useState, useEffect } from "react";
 import TNav from "../component/topnav";
 import { Link } from "react-router-dom";
 
+const loading= {
+  fontSize: "25px",
+  textAlign:"center"
+}
 
 
+setTimeout(function(){
+  document.getElementById("loading").style.display="none";
+}, 15000)
 
 
 function Dic(){
@@ -45,7 +52,9 @@ fetch(path)
   </div>
       ))}
 
-                
+
+      <h3 id="loading" style={loading}>Loading...</h3>
+
         <div className="navbarc" id="myNavbarc">
              <Link to="/"><a className="fa fa-home" title="Home"><br/><small className="smaller">Home</small></a></Link>
              <Link to="/library"><a className="fa fa-book" title="library"><br/><small className="smaller">Library</small></a></Link>
