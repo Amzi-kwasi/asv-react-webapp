@@ -1,0 +1,31 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Aurelia",
+      "lastName": "Anyoko",
+      "age": 21
+    },
+
+    {
+      "id": 2,
+      "firstName": "Kofi",
+      "lastName": "dua",
+      "age": 18
+    },
+
+    {
+      "id": 3,
+      "firstName": "solomon",
+      "lastName": "prah",
+      "age": 20
+    },
+
+    {
+      "id": 4,
+      "firstName": "Adwoa",
+      "lastName": "sekye",
+      "age":29
+    }
+  ]
+}

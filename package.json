@@ -10,7 +10,10 @@
     "@tinymce/tinymce-react": "^4.3.0",
     "@uiw/react-textarea-code-editor": "^2.1.0",
     "aos": "^2.3.4",
+    "axios": "^1.4.0",
+    "g": "^2.0.1",
     "jquery": "^3.6.3",
+    "json-server": "^0.17.3",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.0",
     "react-bottom-navigation": "^0.1.0",
@@ -38,7 +41,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "json:server": "json-server --watch db.json --port 3001"
   },
   "eslintConfig": {
     "extends": [
