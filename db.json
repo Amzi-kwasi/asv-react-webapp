@@ -1,0 +1,4592 @@
+{
+  "terms": [
+    {
+      "id": 1,
+            "abbreviation" : "AAA",
+            "meaning" : "Authentication Authorization, and accounting"
+        },
+
+
+
+        {
+          "id": 2,
+            "abbreviation" : "AAL",
+            "meaning" : "ATM adaptation Layer"
+        },
+
+
+
+        {
+          "id": 3,
+            "abbreviation" : "AARP",
+            "meaning" : "Apple-Talk Address Resolution Protocol"
+        },
+
+
+
+        {
+          "id": 4,
+            "abbreviation" : "AAS",
+            "meaning" : "Auto Area Segmentation"
+        },
+
+
+
+        {
+          "id": 5,
+            "abbreviation" : "AAT",
+            "meaning" : "Average Access Time"
+        },
+
+
+
+        {
+          "id": 6,
+            "abbreviation" : "ABAP",
+            "meaning" : "Advanced Business Application Programming"
+        },
+
+
+
+        {
+          "id": 7,
+            "abbreviation" : "ABI",
+            "meaning" : "Application Binary Interface"
+        },
+
+
+
+        {
+          "id": 8,
+            "abbreviation" : "ABR",
+            "meaning" : "Available Bit Rate"
+        },
+
+
+
+        {
+          "id": 9,
+            "abbreviation" : "ACAP",
+            "meaning" : "Application Configuration Access Protocol"
+        },
+
+
+
+        {
+          "id": 10,
+            "abbreviation" : "ACDI",
+            "meaning" : "Asynchronous Communication Device Interface"
+        },
+
+
+
+        {
+          "id": 11,
+            "abbreviation" : "ACF",
+            "meaning" : "Advanced Communication Function"
+        },
+
+
+
+        {
+          "id": 12,
+            "abbreviation" : "ACI",
+            "meaning" : "Access Control Information"
+        },
+
+
+
+        {
+          "id": 13,
+            "abbreviation" : "ACID",
+            "meaning" : "Atomicity,Consistency,Isolation,Durability"
+        },
+
+
+
+        {
+          "id": 14,
+            "abbreviation" : "ACL",
+            "meaning" : "Access Control List"
+        },
+
+
+
+        {
+          "id": 15,
+            "abbreviation" : "ACM",
+            "meaning" : "Access Control Management"
+        },
+
+
+
+        {
+          "id": 16,
+            "abbreviation" : "ACMS",
+            "meaning" : "Application Control and Management System"
+        },
+
+
+
+        {
+          "id": 17,
+            "abbreviation" : "ACP",
+            "meaning" : "Array Control Processor"
+        },
+
+
+
+        {
+          "id": 18,
+            "abbreviation" : "ACPI",
+            "meaning" : "Advanced Configuration and Power Interface"
+        },
+
+
+
+        {
+          "id": 19,
+            "abbreviation" : "ACRI",
+            "meaning" : "additional coding-related required information"
+        },
+
+
+
+        {
+          "id": 20,
+            "abbreviation" : "ACROSS",
+            "meaning" : "Automated Cargo Release and Operations Service System"
+        },
+
+
+
+        {
+          "id": 21,
+            "abbreviation" : "ACT",
+            "meaning" : "Access Control template"
+        },
+
+
+
+        {
+          "id": 22,
+            "abbreviation" : "ACU",
+            "meaning" : "Abstract Code Unit"
+        },
+
+
+
+        {
+          "id": 23,
+            "abbreviation" : "ADB",
+            "meaning" : "Apple Desktop Bus"
+        },
+
+
+
+        {
+          "id": 24,
+            "abbreviation" : "ADF",
+            "meaning" : "Automatic Document Feeder"
+        },
+
+
+
+        {
+          "id": 25,
+            "abbreviation" : "admin",
+            "meaning" : "ADMINISTRATOR"
+        },
+
+
+
+        {
+          "id": 26,
+            "abbreviation" : "ADI",
+            "meaning" : "Application Desktop Integrator"
+        },
+
+
+
+        {
+          "id": 27,
+            "abbreviation" : "ADK",
+            "meaning" : "Addiitional Decryption Key"
+        },
+
+
+
+        {
+          "id": 28,
+            "abbreviation" : "ADL",
+            "meaning" : "Advanced Distributed Learning"
+        },
+
+
+
+        {
+          "id": 29,
+            "abbreviation" : "ADM",
+            "meaning" : "Application Data Management"
+        },
+
+
+
+        {
+          "id": 30,
+            "abbreviation" : "ADMD",
+            "meaning" : "Administra(tion/tive) Management Domain"
+        },
+
+
+
+        {
+          "id": 31,
+            "abbreviation" : "ADN",
+            "meaning" : "Application Delivery Networking"
+        },
+
+
+
+        {
+          "id": 32,
+            "abbreviation" : "ADSI",
+            "meaning" : "Active Directory Services Interface"
+        },
+
+
+
+        {
+          "id": 33,
+            "abbreviation" : "ADSL",
+            "meaning" : "Asymmetric Digital Subscriber Line"
+        },
+
+
+
+        {
+          "id": 34,
+            "abbreviation" : "AFM",
+            "meaning" : "Atomic Force Microscope"
+        },
+
+
+
+        {
+          "id": 35,
+            "abbreviation" : "AFP",
+            "meaning" : "Apple Filling Protocol"
+        },
+
+
+
+        {
+          "id": 36,
+            "abbreviation" : "AFL",
+            "meaning" : "Academic Free License"
+        },
+
+
+
+        {
+          "id": 37,
+            "abbreviation" : "AGC",
+            "meaning" : "Automatic Gain Control"
+        },
+
+
+
+        {
+          "id": 38,
+            "abbreviation" : "AGP",
+            "meaning" : "Accelerated Graphics Port"
+        },
+
+
+
+        {
+          "id": 39,
+            "abbreviation" : "AHCI",
+            "meaning" : "Advanced Host Controller Interface"
+        },
+
+
+
+        {
+          "id": 40,
+            "abbreviation" : "AHP",
+            "meaning" : "Analytical Hierarchy Process"
+        },
+
+
+
+        {
+          "id": 41,
+            "abbreviation" : "AIA",
+            "meaning" : "Application Integration Architecture"
+        },
+
+
+
+        {
+          "id": 42,
+            "abbreviation" : "AID",
+            "meaning" : "Attention Identifier"
+        },
+
+
+
+        {
+          "id": 43,
+            "abbreviation" : "AIFF",
+            "meaning" : "Audio Interchange File Format"
+        },
+
+
+
+        {
+          "id": 44,
+            "abbreviation" : "AIN",
+            "meaning" : "Advanced Intelligent Network"
+        },
+
+
+
+        {
+          "id": 45,
+            "abbreviation" : "AIO",
+            "meaning" : "all in one"
+        },
+
+
+
+        {
+          "id": 46,
+            "abbreviation" : "AIOD",
+            "meaning" : "Automatic Identified Outward Dialing"
+        },
+
+
+
+        {
+          "id": 47,
+            "abbreviation" : "AIR",
+            "meaning" : "Additive Increase Rate"
+        },
+
+
+
+        {
+          "id": 48,
+            "abbreviation" : "AIX",
+            "meaning" : "Advanced Interactive Executive"
+        },
+
+
+
+        {
+          "id": 49,
+            "abbreviation" : "Ajax",
+            "meaning" : "Asynchronous JavaScript and XML"
+        },
+
+
+
+        {
+          "id": 50,
+            "abbreviation" : "AJP",
+            "meaning" : "Apache JServ Protocol"
+        },
+
+
+
+        {
+          "id": 51,
+            "abbreviation" : "ALI",
+            "meaning" : "Application Layer Interface"
+        },
+
+
+
+        {
+          "id": 52,
+            "abbreviation" : "ALP",
+            "meaning" : "Application Layer Program/Protocol"
+        },
+
+
+
+        {
+          "id": 53,
+            "abbreviation" : "ALSA",
+            "meaning" : "Advanced Linux Sound Architecture"
+        },
+
+
+
+        {
+          "id": 54,
+            "abbreviation" : "ALU",
+            "meaning" : "Arithmetric logic Unit"
+        },
+
+
+
+        {
+          "id": 55,
+            "abbreviation" : "AMA",
+            "meaning" : "automatic message accounting"
+        },
+
+
+
+        {
+          "id": 56,
+            "abbreviation" : "AMD",
+            "meaning" : "Advanced Micro Devices"
+        },
+
+
+
+        {
+          "id": 57,
+            "abbreviation" : "AME",
+            "meaning" : "Advanced Metal Evaporated"
+        },
+
+
+
+        {
+          "id": 58,
+            "abbreviation" : "AMI",
+            "meaning" : "Application Messaging Interface"
+        },
+
+
+
+        {
+          "id": 59,
+            "abbreviation" : "AML",
+            "meaning" : "Astronomical Markup Language"
+        },
+
+
+
+        {
+          "id": 60,
+            "abbreviation" : "AMS",
+            "meaning" : "Application Management Services"
+        },
+
+
+
+        {
+          "id": 61,
+            "abbreviation" : "ANR",
+            "meaning" : "Application Not Responding"
+        },
+
+
+
+        {
+          "id": 62,
+            "abbreviation" : "ANSI",
+            "meaning" : "American National Standards Institute"
+        },
+
+        {
+          "id": 63,
+        "abbreviation" : "ANX",
+        "meaning" : "Automative Network Exchange"
+    },
+    {
+      "id": 64,
+        "abbreviation" : "API",
+        "meaning" : "Application Programming Interface"
+    },
+    {
+      "id": 65,
+        "abbreviation" : "APM",
+        "meaning" : "Action Per Minute"
+    },
+    {
+      "id": 66,
+        "abbreviation" : "APM",
+        "meaning" : "Advanced Power Management"
+    },
+    {
+      "id": 67,
+        "abbreviation" : "APU",
+        "meaning" : "Accelerated Processing Unit"
+    },
+    {
+      "id": 68,
+        "abbreviation" : "ARP",
+        "meaning" : "Address Resolution Protocol"
+    },
+    {
+      "id": 69,
+        "abbreviation" : "ART",
+        "meaning" : "Additional Reference Transmission"
+    },
+    {
+      "id": 70,
+        "abbreviation" : "ASCII",
+        "meaning" : "American Standard Code for Information Interchange"
+    },
+    {
+      "id": 71,
+        "abbreviation" : "ASCL",
+        "meaning" : "Asianet Satellite Communications Limited"
+    },
+    {
+      "id": 72,
+        "abbreviation" : "ASF",
+        "meaning" : "Automatic Sheet Feeder"
+    },
+    {
+      "id": 73,
+        "abbreviation" : "ASO",
+        "meaning" : "App Store Optimization"
+    },
+    {
+      "id": 74,
+        "abbreviation" : "ASML",
+        "meaning" : "Advanced Semiconductor Materials"
+    },
+    {
+      "id": 75,
+        "abbreviation" : "ASP",
+        "meaning" : "Active Server Page or Application Service Provider"
+    },
+    {
+      "id": 76,
+        "abbreviation" : "ASPI",
+        "meaning" : "Advanced SCSI Programming Interface"
+    },
+    {
+      "id": 77,
+        "abbreviation" : "ASPX",
+        "meaning" : "Active Server Pages Extended"
+    },
+    {
+      "id": 78,
+        "abbreviation" : "ASQ",
+        "meaning" : "Automated Software Quality"
+    },
+    {
+      "id": 79,
+        "abbreviation" : "ASVL",
+        "meaning" : "Asvan-Launcher"
+    },
+    {
+      "id": 80,
+        "abbreviation" : "AT",
+        "meaning" : "Advanced Technology"
+    },
+    {
+      "id": 81,
+        "abbreviation" : "ATA",
+        "meaning" : "Advanced Technology Attachment"
+    },
+    {
+      "id": 82,
+        "abbreviation" : "ATM",
+        "meaning" : "Automated Teller Machine"
+    },
+    {
+      "id": 83,
+        "abbreviation" : "ATX",
+        "meaning" : "Advanced Technology Extended"
+    },
+    {
+      "id": 84,
+        "abbreviation" : "AUDIT",
+        "meaning" : "Automated Data Input Terminal"
+    },
+    {
+      "id": 85,
+        "abbreviation" : "AUI",
+        "meaning" : "Attachment Unit Interface"
+    },
+    {
+      "id": 86,
+        "abbreviation" : "AUX",
+        "meaning" : "auxilliary device"
+    },
+    {
+      "id": 87,
+        "abbreviation" : "AV",
+        "meaning" : "Audio Video/Visual"
+    },
+    {
+      "id": 88,
+        "abbreviation" : "AVR",
+        "meaning" : "Audio/Video Receiver"
+    },
+    {
+      "id": 89,
+        "abbreviation" : "AVS",
+        "meaning" : "Application Visualisation System"
+    },
+    {
+      "id": 90,
+        "abbreviation" : "BASIC",
+        "meaning" : "Beginner's All-purpose Symbolic Instruction Code"
+    },
+    {
+      "id": 91,
+        "abbreviation" : "BBC",
+        "meaning" : "British Broadcasting Corporation"
+    },
+    {
+      "id": 92,
+        "abbreviation" : "BCC",
+        "meaning" : "Blind Carbon Copy"
+    },
+    {
+      "id": 93,
+        "abbreviation" : "BCD",
+        "meaning" : "binary-coded decimal"
+    },
+    {
+      "id": 94,
+        "abbreviation" : "BCS",
+        "meaning" : "Basic Content Services"
+    },
+    {
+      "id": 95,
+        "abbreviation" : "BD",
+        "meaning" : "Blu-ray Disc"
+    },
+    {
+      "id": 96,
+        "abbreviation" : "BDC",
+        "meaning" : "Backup Domain Controller"
+    },
+    {
+      "id": 97,
+        "abbreviation" : "BEEP",
+        "meaning" : "Blocks Extensible Exchange Protocol"
+    },
+    {
+      "id": 98,
+        "abbreviation" : "BER",
+        "meaning" : "bit error rate"
+    },
+    {
+      "id": 99,
+        "abbreviation" : "BFT",
+        "meaning" : "Binary File Transfer"
+    },
+    {
+      "id": 100,
+        "abbreviation" : "BGI",
+        "meaning" : "Binary Gateway Interface"
+    },
+    {
+      "id": 101,
+        "abbreviation" : "BGAN",
+        "meaning" : "Broadband Global Area Network"
+    },
+    {
+      "id": 102,
+        "abbreviation" : "BGP",
+        "meaning" : "Border Gateway Protocol"
+    },
+    {
+      "id": 103,
+        "abbreviation" : "BHLI",
+        "meaning" : "Broadband High Layer Information"
+    },
+    {
+      "id": 104,
+        "abbreviation" : "BHO",
+        "meaning" : "Browser Help Object"
+    },
+    {
+      "id": 105,
+        "abbreviation" : "BI",
+        "meaning" : "BUsiness Intelligence"
+    },
+    {
+      "id": 106,
+        "abbreviation" : "BIA",
+        "meaning" : "Business Impact Analysis"
+    },
+    {
+      "id": 107,
+        "abbreviation" : "BIBOP",
+        "meaning" : "big bag of pages"
+    },
+    {
+      "id": 108,
+        "abbreviation" : "BIC",
+        "meaning" : "bank identifier code"
+    },
+    {
+      "id": 109,
+        "abbreviation" : "BICI",
+        "meaning" : "Broadband Inter-Carrier Interface"
+    },
+    {
+      "id": 110,
+        "abbreviation" : "BIDS",
+        "meaning" : "Business Intelligence Development Studio"
+    },
+    {
+      "id": 111,
+        "abbreviation" : "BIOS",
+        "meaning" : "Basic Input/Output System"
+    },
+    {
+      "id": 112,
+        "abbreviation" : "BIPS",
+        "meaning" : "Bank Internet Payment System"
+    },
+    {
+      "id": 113,
+        "abbreviation" : "BIST",
+        "meaning" : "built-in self test"
+    },
+    {
+      "id": 114,
+        "abbreviation" : "Bit",
+        "meaning" : "Binary Digit"
+    },
+    {
+      "id": 115,
+        "abbreviation" : "BJT",
+        "meaning" : "Bipolar Junction Transistor"
+    },
+    {
+      "id": 116,
+        "abbreviation" : "BLISS",
+        "meaning" : "Broadband Local Integrated Services Solution"
+    },
+    {
+      "id": 117,
+        "abbreviation" : "BNI",
+        "meaning" : "Broadband Network Interface"
+    },
+    {
+      "id": 118,
+        "abbreviation" : "BMP",
+        "meaning" : "Bitmap"
+    },
+    {
+      "id": 119,
+        "abbreviation" : "BPA",
+        "meaning" : "Business Process Automation"
+    },
+    {
+      "id": 120,
+        "abbreviation" : "bpi",
+        "meaning" : "bits per inch"
+    },
+    {
+      "id": 121,
+        "abbreviation" : "BPL",
+        "meaning" : "Broadband over Power Lines"
+    },
+    {
+      "id": 122,
+        "abbreviation" : "BPM",
+        "meaning" : "Business Process Management"
+    },
+    {
+      "id": 123,
+        "abbreviation" : "bps",
+        "meaning" : "Bits Per Second"
+    },
+    {
+      "id": 124,
+        "abbreviation" : "BPV",
+        "meaning" : "BiPolor Violation"
+    },
+    {
+      "id": 125,
+        "abbreviation" : "BRA",
+        "meaning" : "Basic Rate Access"
+    },
+    {
+      "id": 126,
+        "abbreviation" : "BRAN",
+        "meaning" : "Broadband Radio Access Networks"
+    },
+    {
+      "id": 127,
+        "abbreviation" : "BRAS",
+        "meaning" : "Broadband Remote Access Server "
+    },
+    {
+      "id": 128,
+        "abbreviation" : "BRE",
+        "meaning" : "Business Rule Engines"
+    },
+    {
+      "id": 129,
+        "abbreviation" : "BRI",
+        "meaning" : "Basic Rate Interface"
+    },
+    {
+      "id": 130,
+        "abbreviation" : "BSA",
+        "meaning" : "Business Software Alliance "
+    },
+    {
+      "id": 131,
+        "abbreviation" : "BSC",
+        "meaning" : "Binary Synchronous Communication"
+    },
+    {
+      "id": 132,
+        "abbreviation" : "BSE",
+        "meaning" : "Basic Service Elements"
+    },
+    {
+      "id": 133,
+        "abbreviation" : "BSM",
+        "meaning" : "Business Service Management"
+    },
+    {
+      "id": 134,
+        "abbreviation" : "BSP",
+        "meaning" : "Board Support Package"
+    },
+    {
+      "id": 135,
+        "abbreviation" : "BSSID",
+        "meaning" : "Basic Service Set Identifier"
+    },
+    {
+      "id": 136,
+        "abbreviation" : "BST",
+        "meaning" : "Binary Search Tree"
+    },
+    {
+      "id": 137,
+        "abbreviation" : "BTAG",
+        "meaning" : "Beginning Tag"
+    },
+    {
+      "id": 138,
+        "abbreviation" : "BTO",
+        "meaning" : "Business Technology Optimization"
+    },
+    {
+      "id": 139,
+        "abbreviation" : "BTM",
+        "meaning" : "Business Transaction Monitoring"
+    },
+    {
+      "id": 140,
+        "abbreviation" : "BTS",
+        "meaning" : "Bits Per Second"
+    },
+    {
+      "id": 141,
+        "abbreviation" : "BTX",
+        "meaning" : "Balanced Technology Extended"
+    },
+    {
+      "id": 142,
+        "abbreviation" : "BUS",
+        "meaning" : "Broadcast and Unknown Server"
+    },
+    {
+      "id": 143,
+        "abbreviation" : "BVD",
+        "meaning" : "Basic Virtual Disk"
+    },
+    {
+      "id": 144,
+        "abbreviation" : "CAD",
+        "meaning" : "Computer-Aided Design"
+    },
+    {
+      "id": 145,
+        "abbreviation" : "C2A",
+        "meaning" : "Click-to-Action"
+    },
+    {
+      "id": 146,
+        "abbreviation" : "CAL",
+        "meaning" : "Client Access License"
+    },
+    {
+      "id": 147,
+        "abbreviation" : "CAMEL",
+        "meaning" : "Customized Application for Mobile Networks Enhanced Logic"
+    },
+    {
+      "id": 148,
+        "abbreviation" : "CAN",
+        "meaning" : "Campus Area Network"
+    },
+    {
+      "id": 149,
+        "abbreviation" : "CAPI",
+        "meaning" : "Computer Assisted Personal Interviews"
+    },
+    {
+      "id": 150,
+        "abbreviation" : "CARE",
+        "meaning" : "Customer Account Record Exchange"
+    },
+    {
+      "id": 151,
+        "abbreviation" : "CBN",
+        "meaning" : "Common Bonding Network "
+    },
+    {
+      "id": 152,
+        "abbreviation" : "CBQ",
+        "meaning" : "Class-Based Queuing"
+    },
+    {
+      "id": 153,
+        "abbreviation" : "CBT",
+        "meaning" : "Computer Based Training"
+    },
+    {
+      "id": 154,
+        "abbreviation" : "CBWFQ",
+        "meaning" : "Class-Based Weighted Fair Queueing"
+    },
+    {
+      "id": 155,
+        "abbreviation" : "Cc",
+        "meaning" : "Carbon Copy"
+    },
+    {
+      "id": 156,
+        "abbreviation" : "CCC",
+        "meaning" : "Clear Channel Capability"
+    },
+    {
+      "id": 157,
+        "abbreviation" : "CCD",
+        "meaning" : "Charged Coupled Device"
+    },
+    {
+      "id": 158,
+        "abbreviation" : "CCIE",
+        "meaning" : "Cisco Certified Internetwork Expert"
+    },
+    {
+      "id": 159,
+        "abbreviation" : "CCL",
+        "meaning" : "Communication Control Language"
+    },
+    {
+      "id": 160,
+        "abbreviation" : "CCNA",
+        "meaning" : "Cisco Certified Network Assocaite "
+    },
+    {
+      "id": 161,
+        "abbreviation" : "CCP",
+        "meaning" : "Certified Computer Professionals"
+    },
+    {
+      "id": 162,
+        "abbreviation" : "CCTV",
+        "meaning" : "Closed-Circuit Television"
+    },
+    {
+      "id": 163,
+        "abbreviation" : "CD",
+        "meaning" : "Compact Disc"
+    },
+    {
+      "id": 164,
+        "abbreviation" : "CDB",
+        "meaning" : "Capacity Database"
+    },
+
+{
+  "id" : 165,
+"abbreviation" : "CDDI",
+"meaning" : "Copper Distributed Data Interface"
+},
+
+
+{
+  "id" : 166,
+"abbreviation" : "CDE",
+"meaning" : "Common Desktop Environment"
+},
+
+
+{
+  "id" : 167,
+"abbreviation" : "CD-R",
+"meaning" : "Compact Disc Recordable"
+},
+
+
+{
+  "id" : 168,
+"abbreviation" : "CD-ROM",
+"meaning" : "Compact Disc Read Only Memory"
+},
+
+
+{
+  "id" : 169,
+"abbreviation" : "CD-RW",
+"meaning" : "Copact Disk Re-Writable"
+},
+
+
+{
+  "id" : 170,
+"abbreviation" : "CDFS",
+"meaning" : "Compact Disc File System"
+},
+
+
+{
+  "id" : 171,
+"abbreviation" : "CDH",
+"meaning" : "Customer Data Hub"
+},
+
+
+{
+  "id" : 172,
+"abbreviation" : "CDI",
+"meaning" : "Customer Data Integration"
+},
+
+
+{
+  "id" : 173,
+"abbreviation" : "CDMA",
+"meaning" : "Code division multiple access"
+},
+
+
+{
+  "id" : 174,
+"abbreviation" : "CDN",
+"meaning" : "Content Delivery Network"
+},
+
+
+{
+  "id" : 175,
+"abbreviation" : "CDO",
+"meaning" : "Care Delivery Organization"
+},
+
+
+{
+  "id" : 176,
+"abbreviation" : "CDS",
+"meaning" : "Correlated Double Sampling"
+},
+
+
+{
+  "id" : 177,
+"abbreviation" : "CDV",
+"meaning" : "Cell Delay Variation"
+},
+
+
+{
+  "id" : 178,
+"abbreviation" : "CEA",
+"meaning" : "Consumer Electronics Association"
+},
+
+
+{
+  "id" : 179,
+"abbreviation" : "CEC",
+"meaning" : "Consumer Electronics Control"
+},
+
+
+{
+  "id" : 180,
+"abbreviation" : "CEF",
+"meaning" : "Character Encoding Form"
+},
+
+
+{
+  "id" : 181,
+"abbreviation" : "CEH",
+"meaning" : "Certified Ethical Hacker "
+},
+
+
+{
+  "id" : 182,
+"abbreviation" : "CEM",
+"meaning" : "Customer Experience Management"
+},
+
+
+{
+  "id" : 183,
+"abbreviation" : "CEMF",
+"meaning" : "Cisco Element Management Framework"
+},
+
+
+{
+  "id" : 184,
+"abbreviation" : "CER",
+"meaning" : "Corporate Error Reporting"
+},
+
+
+{
+  "id" : 185,
+"abbreviation" : "CF",
+"meaning" : "Compact Flash"
+},
+
+
+{
+  "id" : 186,
+"abbreviation" : "CG",
+"meaning" : "Computer Graphics"
+},
+
+
+{
+  "id" : 187,
+"abbreviation" : "CGA",
+"meaning" : "Colour Graphics Adaptor"
+},
+
+
+{
+  "id" : 188,
+"abbreviation" : "CGI",
+"meaning" : "Common Gateway Interface"
+},
+
+
+{
+  "id" : 189,
+"abbreviation" : "CGM",
+"meaning" : "Consumer-generated media"
+},
+
+
+{
+  "id" : 190,
+"abbreviation" : "Charset",
+"meaning" : "character set"
+},
+
+
+{
+  "id" : 191,
+"abbreviation" : "chat",
+"meaning" : "Conversational Hypertext Access Technology"
+},
+
+
+{
+  "id" : 192,
+"abbreviation" : "ChR",
+"meaning" : "channel reliability"
+},
+
+
+{
+  "id" : 193,
+"abbreviation" : "cHTML",
+"meaning" : "Compact Hypertext Markup Language "
+},
+
+
+{
+  "id" : 194,
+"abbreviation" : "CIA",
+"meaning" : "Confidentiality,integrity,and availability"
+},
+
+
+{
+  "id" : 195,
+"abbreviation" : "CICS",
+"meaning" : "Customer Information Control System"
+},
+
+
+{
+  "id" : 196,
+"abbreviation" : "CIDR",
+"meaning" : "Classless Inter-Domain Routing"
+},
+
+
+{
+  "id" : 197,
+"abbreviation" : "CIFS",
+"meaning" : "Common Internet File System"
+},
+
+
+{
+  "id" : 198,
+"abbreviation" : "CIK",
+"meaning" : "crypto-ignition key"
+},
+
+
+{
+  "id" : 199,
+"abbreviation" : "CIM",
+"meaning" : "Computer Integrated Manufacturing"
+},
+
+
+{
+  "id" : 200,
+"abbreviation" : "CISC",
+"meaning" : "Complex Instruction Set Computing"
+},
+
+
+{
+  "id" : 201,
+"abbreviation" : "CISO",
+"meaning" : "chief information security officer"
+},
+
+
+{
+  "id" : 202,
+"abbreviation" : "CIX",
+"meaning" : "Commercial Internet Exchange"
+},
+
+
+{
+  "id" : 203,
+"abbreviation" : "CLASS",
+"meaning" : "Custom Local Area Signaling Services"
+},
+
+
+{
+  "id" : 204,
+"abbreviation" : "CLEC",
+"meaning" : "Competitive Local Exchange Carrier"
+},
+
+
+{
+  "id" : 205,
+  "abbreviation" : "CMOS",
+"meaning" : "Complementary Metal Oxide Semiconductor"
+},
+
+
+{
+  "id" : 206,
+"abbreviation" : "CMYK",
+"meaning" : "Cyan Magenta Yellow Black"
+},
+
+
+{
+  "id" : 207,
+"abbreviation" : "CNA",
+"meaning" : "Converged Network Adapter"
+},
+
+
+{
+  "id" : 208,
+"abbreviation" : "CNAM",
+"meaning" : "Caller ID With Name"
+},
+
+
+{
+  "id" : 209,
+"abbreviation" : "CNE",
+"meaning" : "Certified Novell/Network Engineer"
+},
+
+
+{
+  "id" : 210,
+"abbreviation" : "CO",
+"meaning" : "Central Office"
+},
+
+
+{
+  "id" : 211,
+"abbreviation" : "CoA",
+"meaning" : "Care of Address"
+},
+
+
+{
+  "id" : 212,
+"abbreviation" : "coax",
+"meaning" : "coaxial(cable)"
+},
+
+
+{
+  "id" : 213,
+"abbreviation" : "COBIT",
+"meaning" : "Control Objectives for Information and related Technologies"
+},
+
+
+{
+  "id" : 214,
+"abbreviation" : "COIN",
+"meaning" : "Community OF Interest Network"
+},
+
+
+{
+  "id" : 215,
+"abbreviation" : "CORE",
+"meaning" : "Compare Operational Readiness Evaluation"
+},
+
+
+{
+  "id" : 216,
+"abbreviation" : "CORS",
+"meaning" : "Continuously Operating Reference Station"
+},
+
+
+{
+  "id" : 217,
+"abbreviation" : "COS",
+"meaning" : "Cloud Optimized Storage"
+},
+
+
+{
+  "id" : 218,
+"abbreviation" : "CPA",
+"meaning" : "Cost Per Action"
+},
+
+
+{
+  "id" : 219,
+"abbreviation" : "CPAN",
+"meaning" : "Comprehensive Perl Archive Network"
+},
+
+
+{
+  "id" : 220,
+"abbreviation" : "cPanel",
+"meaning" : "control panel"
+},
+
+
+{
+  "id" : 221,
+"abbreviation" : "CPE",
+"meaning" : "customer premises equipment"
+},
+
+
+{
+  "id" : 222,
+"abbreviation" : "CPF",
+"meaning" : "Cloud Provisioning Fabric"
+},
+
+
+{
+  "id" : 223,
+"abbreviation" : "cpi",
+"meaning" : "characters per inch"
+},
+
+
+{
+  "id" : 224,
+"abbreviation" : "CPLD",
+"meaning" : "Complex Programmable Logic Device"
+},
+
+
+{
+  "id" : 225,
+"abbreviation" : "CPM",
+"meaning" : "Cost Per 1,000 Impressions"
+},
+
+
+{
+  "id" : 226,
+"abbreviation" : "CPN",
+"meaning" : "calling party number"
+},
+
+
+{
+  "id" : 227,
+"abbreviation" : "CPNI",
+"meaning" : "Customer Proprietary Network Information"
+},
+
+
+{
+  "id" : 228,
+"abbreviation" : "CPOE",
+"meaning" : "Computerized Provider Order Entry"
+},
+
+
+{
+  "id" : 229,
+"abbreviation" : "CPRM",
+"meaning" : "Content Protection for Removable Media"
+},
+
+
+{
+  "id" : 230,
+"abbreviation" : "cps",
+"meaning" : "Characters Per Second"
+},
+
+
+{
+  "id" : 231,
+"abbreviation" : "CPS",
+"meaning" : "Continuous Protection Server"
+},
+
+
+{
+  "id" : 232,
+"abbreviation" : "CPU",
+"meaning" : "Central Processing Unit"
+},
+
+
+{
+  "id" : 233,
+"abbreviation" : "CRACK",
+"meaning" : "Challenge/Response Authentication of Cryptographic Key"
+},
+
+
+{
+  "id" : 234,
+"abbreviation" : "CRC",
+"meaning" : "Cyclic Redundancy Check"
+},
+
+
+{
+  "id" : 235,
+"abbreviation" : "CRL",
+"meaning" : "certificate revocation list"
+},
+
+
+{
+  "id" : 236,
+"abbreviation" : "CRLF",
+"meaning" : "carriage return, line feed"
+},
+
+
+{
+  "id" : 237,
+"abbreviation" : "CRM",
+"meaning" : "Customer Relationship Management"
+},
+
+
+{
+  "id" : 238,
+"abbreviation" : "CRMB",
+"meaning" : "Customer Reference Material Database"
+},
+
+
+{
+  "id" : 239,
+"abbreviation" : "cROI",
+"meaning" : "companywide ROI"
+},
+
+
+{
+  "id" : 240,
+"abbreviation" : "CRR",
+"meaning" : "Continuous Remote Replication"
+},
+
+
+{
+  "id": 241,
+"abbreviation" : "CRT",
+"meaning" : "Cathode Ray Tube"
+},
+
+
+{
+  "id" : 242,
+"abbreviation" : "CRUD",
+"meaning" : "Create, Read, Update, Delete"
+},
+
+
+{
+  "id" : 243,
+"abbreviation" : "crypto",
+"meaning" : "Cryptography"
+},
+
+
+{
+  "id" : 244,
+"abbreviation" : "CSCF",
+"meaning" : "call session control function"
+},
+
+
+{
+  "id" : 245,
+"abbreviation" : "CSCW",
+"meaning" : "computer supported co-operative work"
+},
+
+
+{
+  "id" : 246,
+"abbreviation" : "CSD",
+"meaning" : "Cisco Secure Desktop"
+},
+
+
+{
+"id" : 247,
+"abbreviation" : "CSE",
+"meaning" : "custom search engine"
+},
+
+
+{
+"id" : 248,
+"abbreviation" : "Csel",
+"meaning" : "Cable Select"
+},
+
+
+{
+"id" : 249,
+"abbreviation" : "CSFs",
+"meaning" : "critical success factors"
+},
+
+
+{
+"id" : 250,
+"abbreviation" : "CSG",
+"meaning" : "Communications Services Group"
+},
+
+
+{
+"id" : 251,
+"abbreviation" : "CSMA/CA",
+"meaning" : "Carrier Sense Multiple Access/Collision Avoidance"
+},
+
+
+{
+"id" : 252,
+"abbreviation" : "CSMA/CD",
+"meaning" : "Carrier Sense Multiple Access with Collision Detection"
+},
+
+
+{
+"id" : 253,
+"abbreviation" : "CSO",
+"meaning" : "Cold Start Only"
+},
+
+
+{
+"id" : 254,
+"abbreviation" : "CSP",
+"meaning" : "Communications service providers"
+},
+
+
+{
+"id" : 255,
+"abbreviation" : "CSS",
+"meaning" : "Cascading Style Sheet"
+},
+
+
+{
+"id" : 256,
+"abbreviation" : "CSS-P",
+"meaning" : "cascading style sheet positioning"
+},
+
+
+{
+"id" : 257,
+"abbreviation" : "CST",
+"meaning" : "Consolidated Service Test"
+},
+
+
+{
+"id" : 258,
+"abbreviation" : "CSW",
+"meaning" : "channel status word"
+},
+
+
+{
+"id" : 259,
+"abbreviation" : "CTCp",
+"meaning" : "Client-To-Client-Protoco"
+},
+
+
+{
+"id" : 260,
+"abbreviation" : "CTD",
+"meaning" : "Cell Transfer Delay"
+},
+
+
+{
+"id" : 261,
+"abbreviation" : "CTI",
+"meaning" : "computer-telephony integration"
+},
+
+
+{
+"id" : 262,
+"abbreviation" : "CTO",
+"meaning" : "chief technology officer"
+},
+
+
+{
+"id" : 263,
+"abbreviation" : "CTP",
+"meaning" : "capable to promise"
+},
+
+
+{
+"id" : 264,
+"abbreviation" : "CTR",
+"meaning" : "Click-Through Rate"
+},
+
+
+{
+"id" : 265,
+"abbreviation" : "ctrl",
+"meaning" : "control"
+},
+
+
+{
+"id" : 266,
+"abbreviation" : "CTT",
+"meaning" : "China Tietong Telecommunications"
+},
+
+
+{
+"id" : 267,
+"abbreviation" : "CTX",
+"meaning" : "Commited to Excellence"
+},
+
+
+{
+"id" : 268,
+"abbreviation" : "CUDA",
+"meaning" : "Compute Unified Device Architecture"
+},
+
+
+{
+"id" : 269,
+"abbreviation" : "CUG",
+"meaning" : "closed user group"
+},
+
+
+{
+"id" : 270,
+"abbreviation" : "CUoD",
+"meaning" : "Capacity Upgrade on Demand"
+},
+
+
+{
+"id" : 271,
+"abbreviation" : "CUPS",
+"meaning" : "Common Unix Printing System"
+},
+
+
+{
+"id" : 272,
+"abbreviation" : "CVP",
+"meaning" : "Content Vectoring Protocol"
+},
+
+
+{
+"id" : 273,
+"abbreviation" : "CVSD",
+"meaning" : "Continuous Variable Slope Delta modulation"
+},
+
+
+{
+"id" : 274,
+"abbreviation" : "CYMK",
+"meaning" : "cyan, magenta, yellow, black"
+},
+
+
+{
+"id" : 275,
+"abbreviation" : "DAW",
+"meaning" : "Digital Audio Workstation"
+},
+
+
+{
+"id" : 276,
+"abbreviation" : "DBL",
+"meaning" : "Dorby-Launch"
+},
+
+
+{
+"id" : 277,
+"abbreviation" : "DBMS",
+"meaning" : "Database Management System"
+},
+
+
+{
+"id" : 278,
+"abbreviation" : "DP",
+"meaning" : "Display Port"
+},
+
+
+{
+"id" : 279,
+"abbreviation" : "DPCP",
+"meaning" : "DisplayPort Content Protection"
+},
+
+
+{
+"id" : 280,
+"abbreviation" : "DCIM",
+"meaning" : "Digital Camera Images"
+},
+
+
+{
+"id" : 281,
+"abbreviation" : "DDL",
+"meaning" : "Data Definition Language"
+},
+
+
+{
+"id" : 282,
+"abbreviation" : "DDR",
+"meaning" : "Double Data Rate"
+},
+
+
+{
+"id" : 283,
+"abbreviation" : "DFS",
+"meaning" : "Distributed File System"
+},
+
+
+{
+"id" : 284,
+"abbreviation" : "DFS",
+"meaning" : "Dynamic Frequency Selection"
+},
+
+
+{
+"id" : 285,
+"abbreviation" : "DHCP",
+"meaning" : "Dynamic Host Configuration Protocol"
+},
+
+
+{
+"id" : 286,
+"abbreviation" : "DIMM",
+"meaning" : "Dual in-Line Memory module"
+},
+
+
+{
+"id" : 287,
+"abbreviation" : "DKIM",
+"meaning" : "DomainKeys Identified Mail"
+},
+
+
+{
+"id" : 288,
+"abbreviation" : "DLC",
+"meaning" : "Downloadable Content"
+},
+
+
+{
+"id" : 289,
+"abbreviation" : "DMA",
+"meaning" : "Direct Memory Access"
+},
+
+
+{
+"id" : 290,
+"abbreviation" : "DNS",
+"meaning" : "Domain Name System"
+},
+
+
+{
+"id" : 291,
+"abbreviation" : "DOD",
+"meaning" : "Department of Defense"
+},
+
+
+{
+"id" : 292,
+"abbreviation" : "DOS",
+"meaning" : "Disk Operating System"
+},
+
+
+{
+"id" : 293,
+"abbreviation" : "DPI",
+"meaning" : "Dot Per Inch"
+},
+
+
+{
+"id" : 294,
+"abbreviation" : "DRAM",
+"meaning" : "Dynamic Random Access Memory"
+},
+
+
+{
+"id" : 295,
+"abbreviation" : "DRM",
+"meaning" : "Digital Rights Management"
+},
+
+
+{
+"id" : 296,
+"abbreviation" : "DSL",
+"meaning" : "Digital Subscriber Line"
+},
+
+
+{
+"id" : 297,
+"abbreviation" : "DSLAM",
+"meaning" : "Digital Subscriber Line Access Multiplexer"
+},
+
+
+{
+"id" : 298,
+"abbreviation" : "DSSS",
+"meaning" : "Direct-Sequence Spread Spectrum"
+},
+
+
+{
+"id" : 299,
+"abbreviation" : "DTD",
+"meaning" : "Document Type Definition"
+},
+
+
+{
+"id" : 300,
+"abbreviation" : "DV",
+"meaning" : "Digital Video"
+},
+
+
+{
+"id" : 301,
+"abbreviation" : "DVD",
+"meaning" : "Digital Versatile Disc"
+},
+
+
+{
+"id" : 302,
+"abbreviation" : "DVD + R",
+"meaning" : "Digital Versatile Disc Recordable"
+},
+
+
+{
+"id" : 303,
+"abbreviation" : "DVD + RW",
+"meaning" : "Digital Versatile Disc Rewritable"
+},
+
+
+{
+"id" : 304,
+"abbreviation" : "DVD-R",
+"meaning" : "Digital Versatile Disc Recordable"
+},
+
+
+{
+"id" : 305,
+"abbreviation" : "DVD-RAM",
+"meaning" : "Digital Versatile Disc Random Access Memory"
+},
+
+
+{
+"id" : 306,
+"abbreviation" : "DVI",
+"meaning" : "Digital Video Interface"
+},
+
+
+{
+"id" : 307,
+"abbreviation" : "DVR",
+"meaning" : "Digital Video Recorder"
+},
+
+
+{
+"id" : 308,
+"abbreviation" : "ECC",
+"meaning" : "Error Correction Code"
+},
+
+
+{
+"id" : 309,
+"abbreviation" : "ECM",
+"meaning" : "Enterprise Content Management"
+},
+
+
+{
+"id" : 310,
+"abbreviation" : "ECMA",
+"meaning" : "European Computer Manufacturers Association"
+},
+
+
+{
+"id" : 311,
+"abbreviation" : "ECMP",
+"meaning" : "Equal Cost Multipath Routing"
+},
+
+
+{
+"id" : 312,
+"abbreviation" : "ECS",
+"meaning" : "Extended Character Set"
+},
+
+
+{
+"id" : 313,
+"abbreviation" : "EDI",
+"meaning" : "Electronic Data Interchange"
+},
+
+
+{
+"id" : 314,
+"abbreviation" : "EDO",
+"meaning" : "Extended Data Output"
+},
+
+
+{
+"id" : 315,
+"abbreviation" : "EDS",
+"meaning" : "Electronic Data Systems"
+},
+
+
+{
+"id" : 316,
+"abbreviation" : "EEPROM",
+"meaning" : "Electrical Erasable Programmable Read Only Memory"
+},
+
+
+{
+"id" : 317,
+"abbreviation" : "EFI",
+"meaning" : "Extensible Firmware Interface"
+},
+
+
+{
+"id" : 318,
+"abbreviation" : "EGP",
+"meaning" : "Exterior Gateway Protocol"
+},
+
+
+{
+"id" : 319,
+"abbreviation" : "EHA",
+"meaning" : "Ethernet Hardware Address"
+},
+
+
+{
+"id" : 320,
+"abbreviation" : "ELAN",
+"meaning" : "Emulated Local Area Network"
+},
+
+
+{
+"id" : 321,
+"abbreviation" : "EMI",
+"meaning" : "Electromagnetic Interferance"
+},
+
+
+{
+"id" : 322,
+"abbreviation" : "EMR",
+"meaning" : "Electronic Medical Record"
+},
+
+
+{
+"id" : 323,
+"abbreviation" : "ENQ",
+"meaning" : "Enquiry"
+},
+
+
+{
+"id" : 324,
+"abbreviation" : "ENX",
+"meaning" : "European Network Exchange"
+},
+
+
+{
+"id" : 325,
+"abbreviation" : "EPM",
+"meaning" : "Enterprise Performance Management"
+},
+
+
+{
+"id" : 326,
+"abbreviation" : "EPROM",
+"meaning" : "Erasable Programmable Read-Only Memory"
+},
+
+
+{
+"id" : 327,
+"abbreviation" : "ESCD",
+"meaning" : "Extended System Configuration Data"
+},
+
+
+{
+"id" : 328,
+"abbreviation" : "ESM",
+"meaning" : "Enterprise Service Management"
+},
+
+
+{
+"id" : 329,
+"abbreviation" : "ESDI",
+"meaning" : "Enhanced Small Device Interface"
+},
+
+
+{
+"id" : 330,
+"abbreviation" : "eGPU",
+"meaning" : "External Graphics Processing Unit"
+},
+
+
+{
+"id" : 331,
+"abbreviation" : "eSATA",
+"meaning" : "External Serial Advanced Technology Attachment"
+},
+
+
+{
+"id" : 332,
+"abbreviation" : "EULA",
+"meaning" : "End-User License Agreement"
+},
+
+
+{
+"id" : 333,
+"abbreviation" : "EXIF",
+"meaning" : "Exchangeable Image File Format"
+},
+
+
+{
+"id" : 334,
+"abbreviation" : "FAQ",
+"meaning" : "FRequently Asked Questions"
+},
+
+
+{
+"id" : 335,
+"abbreviation" : "FDD",
+"meaning" : "Floppy Disk Drive"
+},
+
+
+{
+"id" : 336,
+"abbreviation" : "FDDI",
+"meaning" : "Fiber Distributed Data Interface"
+},
+
+
+{
+"id" : 337,
+"abbreviation" : "FHSS",
+"meaning" : "Frequency-hoping Spread Spectrum"
+},
+
+
+{
+"id" : 338,
+"abbreviation" : "FIFO",
+"meaning" : "First in, First out"
+},
+
+
+{
+"id" : 339,
+"abbreviation" : "Fios",
+"meaning" : "Fiber Optic Service"
+},
+
+
+{
+"id" : 340,
+"abbreviation" : "FTP",
+"meaning" : "File Transfer Protocol"
+},
+
+
+{
+"id" : 341,
+"abbreviation" : "FTTN",
+"meaning" : "Fiber-to-the-Node"
+},
+
+
+{
+"id" : 342,
+"abbreviation" : "Gbps",
+"meaning" : "Gigabits per Second"
+},
+
+
+{
+"id" : 343,
+"abbreviation" : "GDI",
+"meaning" : "Graphics Device Interface"
+},
+
+
+{
+"id" : 344,
+"abbreviation" : "GDSN",
+"meaning" : "Global Data Synchronization Network"
+},
+
+
+{
+"id" : 345,
+"abbreviation" : "GEAR",
+"meaning" : "Gigabyte Enhanced Agp Riser"
+},
+
+
+{
+"id" : 346,
+"abbreviation" : "GEO/GEOS",
+"meaning" : "Geo-Stationary Earth Orbit System"
+},
+
+
+{
+"id" : 347,
+"abbreviation" : "GIGO",
+"meaning" : "garbage in, garbage out"
+},
+
+
+{
+"id" : 348,
+"abbreviation" : "GIMP",
+"meaning" : "GNU Image Manipulation Program"
+},
+
+
+{
+"id" : 349,
+"abbreviation" : "GINA",
+"meaning" : "Graphical Identification and Authentication"
+},
+
+
+{
+"id" : 350,
+"abbreviation" : "GIX",
+"meaning" : "Global Interchange Exchange"
+},
+
+
+{
+"id" : 351,
+"abbreviation" : "GMRS",
+"meaning" : "General Mobile Radio Service"
+},
+
+
+{
+"id" : 352,
+"abbreviation" : "GMS",
+"meaning" : "Global Messaging Service"
+},
+
+
+{
+"id" : 353,
+"abbreviation" : "GMSK",
+"meaning" : "Gaussian Minimum Shift Keying"
+},
+
+
+{
+"id" : 354,
+"abbreviation" : "GNN",
+"meaning" : "Global Network Navigator"
+},
+
+
+{
+"id" : 355,
+"abbreviation" : "GPL",
+"meaning" : "General Public License"
+},
+
+
+{
+"id" : 356,
+"abbreviation" : "GPIO",
+"meaning" : "General Purpose I/O"
+},
+
+
+{
+"id" : 357,
+"abbreviation" : "GPRS",
+"meaning" : "General Packet Radio Service"
+},
+
+
+{
+"id" : 358,
+"abbreviation" : "GPS",
+"meaning" : "Global Positioning System"
+},
+
+
+{
+"id" : 359,
+"abbreviation" : "GPSL",
+"meaning" : "General Purpose Scripting Language"
+},
+
+
+{
+"id" : 360,
+"abbreviation" : "GPU",
+"meaning" : "Graphics Processing Unit"
+},
+
+
+{
+"id" : 361,
+"abbreviation" : "GSM",
+"meaning" : "Global System for Mobile Communication"
+},
+
+
+{
+"id" : 362,
+"abbreviation" : "GUI",
+"meaning" : "Graphical User Interface"
+},
+
+
+{
+"id" : 363,
+"abbreviation" : "GUID",
+"meaning" : "Globally Unique Identifier"
+},
+
+
+{
+"id" : 364,
+"abbreviation" : "HAN",
+"meaning" : "Home Area Network"
+},
+
+
+{
+"id" : 365,
+"abbreviation" : "HD",
+"meaning" : "High Definition"
+},
+
+
+{
+"id" : 366,
+"abbreviation" : "HDCP",
+"meaning" : "High-bandwidth Digital Content Protection"
+},
+
+
+{
+"id" : 367,
+"abbreviation" : "HDD",
+"meaning" : "Hard Disk Drive"
+},
+
+
+{
+"id" : 368,
+"abbreviation" : "HDMI",
+"meaning" : "High-Definition Multimedia Interface"
+},
+
+
+{
+"id" : 369,
+"abbreviation" : "HDR",
+"meaning" : "High Dynamic Range"
+},
+
+
+{
+"id" : 370,
+"abbreviation" : "HDSL",
+"meaning" : "High bit-rate Digital Subscriber Line"
+},
+
+
+{
+"id" : 371,
+"abbreviation" : "HDTV",
+"meaning" : "High Definition Television"
+},
+
+
+{
+"id" : 372,
+"abbreviation" : "HDV",
+"meaning" : "High-Definition Video"
+},
+
+
+{
+"id" : 373,
+"abbreviation" : "HFS",
+"meaning" : "Hierarchical File System"
+},
+
+
+{
+"id" : 374,
+"abbreviation" : "HSF",
+"meaning" : "Heat Sink and Fan"
+},
+
+
+{
+"id" : 375,
+"abbreviation" : "HTML",
+"meaning" : "Hyper-Text markup language"
+},
+
+
+{
+"id" : 376,
+"abbreviation" : "HTTPS",
+"meaning" : "Hypertext Transfer Protocol Secure"
+},
+
+
+{
+"id" : 377,
+"abbreviation" : "I/O",
+"meaning" : "Input/Output"
+},
+
+
+{
+"id" : 378,
+"abbreviation" : "ICANN",
+"meaning" : "Internet Corporation For Assigned Names and Numbers"
+},
+
+
+{
+"id" : 379,
+"abbreviation" : "ICCID",
+"meaning" : "Integrated Circuit Card Identifier"
+},
+
+
+{
+"id" : 380,
+"abbreviation" : "ICF",
+"meaning" : "Internet Connection Firewall"
+},
+
+
+{
+"id" : 381,
+"abbreviation" : "ICMP",
+"meaning" : "Internet Control message Protoccol"
+},
+
+
+{
+"id" : 382,
+"abbreviation" : "ICS",
+"meaning" : "Internet Connection Sharing"
+},
+
+
+{
+"id" : 383,
+"abbreviation" : "ICT",
+"meaning" : "Information and Communication Technologies"
+},
+
+
+{
+"id" : 384,
+"abbreviation" : "IDE",
+"meaning" : "Integrated Device Electronics or Integrated Development Environment"
+},
+
+
+{
+"id" : 385,
+"abbreviation" : "IEEE",
+"meaning" : "Institute of Electrical and Electronics Engineers"
+},
+
+
+{
+"id" : 386,
+"abbreviation" : "IGP",
+"meaning" : "Integrated Graphics Processors"
+},
+
+
+{
+"id" : 387,
+"abbreviation" : "IIS",
+"meaning" : "Internet Information Services"
+},
+
+
+{
+"id" : 388,
+"abbreviation" : "IM",
+"meaning" : "Instant Message"
+},
+
+
+{
+"id" : 389,
+"abbreviation" : "IMAP",
+"meaning" : "Internet Message Access Protocol"
+},
+
+
+{
+"id" : 390,
+"abbreviation" : "IMEI",
+"meaning" : "Internet Mobile Equipment Identity"
+},
+
+
+{
+"id" : 391,
+"abbreviation" : "InterNIC",
+"meaning" : "Internet Network Information Center"
+},
+
+
+{
+"id" : 392,
+"abbreviation" : "IOPS",
+"meaning" : "Input/Output Operations Per Second"
+},
+
+
+{
+"id" : 393,
+"abbreviation" : "IP",
+"meaning" : "Internet Protocol"
+},
+
+
+{
+"id" : 394,
+"abbreviation" : "IPC",
+"meaning" : "Interprocess Communication"
+},
+
+
+{
+"id" : 395,
+"abbreviation" : "IPS",
+"meaning" : "In-Plane Switching"
+},
+
+
+{
+"id" : 396,
+"abbreviation" : "IPS",
+"meaning" : "Intrusion Prevension System"
+},
+
+
+{
+"id" : 397,
+"abbreviation" : "IPX",
+"meaning" : "Internetwork Packet Exchange"
+},
+
+
+{
+"id" : 398,
+"abbreviation" : "IrDA",
+"meaning" : "Infrared Data Association"
+},
+
+
+{
+"id" : 399,
+"abbreviation" : "IRC",
+"meaning" : "Internet Relay chat"
+},
+
+
+{
+"id" : 400,
+"abbreviation" : "IRQ",
+"meaning" : "Interrupt Request"
+},
+
+
+{
+"id" : 401,
+"abbreviation" : "ISA",
+"meaning" : "Industry Standard Architecture"
+},
+
+
+{
+"id" : 402,
+"abbreviation" : "ISCSI",
+"meaning" : "Internet Small Computer Systems Interface"
+},
+
+
+{
+"id" : 403,
+"abbreviation" : "ISDN",
+"meaning" : "Intergrated Services Digital Network"
+},
+
+
+{
+"id" : 404,
+"abbreviation" : "ISO",
+"meaning" : "International Organization for Standardization"
+},
+
+
+{
+"id" : 405,
+"abbreviation" : "ISP",
+"meaning" : "Internet Service Provider"
+},
+
+
+{
+"id" : 406,
+"abbreviation" : "ISR",
+"meaning" : "Interrupt Service Routine"
+},
+
+
+{
+"id" : 407,
+"abbreviation" : "IT",
+"meaning" : "Information Technology"
+},
+
+
+{
+"id" : 408,
+"abbreviation" : "ITIL",
+"meaning" : "Information Technology Infrastructure Library"
+},
+
+
+{
+"id" : 409,
+"abbreviation" : "IVR",
+"meaning" : "Interactive Voice Response"
+},
+
+
+{
+"id" : 410,
+"abbreviation" : "JDBC",
+"meaning" : "Java Database Connectivity"
+},
+
+
+{
+"id" : 411,
+"abbreviation" : "JFS",
+"meaning" : "Journaled File System"
+},
+
+
+{
+"id" : 412,
+"abbreviation" : "JPEG",
+"meaning" : "Joint Photographic Experts Group"
+},
+
+
+{
+"id" : 413,
+"abbreviation" : "JRE",
+"meaning" : "Java Routine Environment"
+},
+
+
+{
+"id" : 414,
+"abbreviation" : "JS",
+"meaning" : "JavaScript"
+},
+
+
+{
+"id" : 415,
+"abbreviation" : "JSF",
+"meaning" : "JavaServer Faces"
+},
+
+
+{
+"id" : 416,
+"abbreviation" : "JSON",
+"meaning" : "JavaScript Object Notation"
+},
+
+
+{
+"id" : 417,
+"abbreviation" : "JSP",
+"meaning" : "Java Server Page"
+},
+
+
+{
+"id" : 418,
+"abbreviation" : "JVM",
+"meaning" : "Java Virtual Machine"
+},
+
+
+{
+"id" : 419,
+"abbreviation" : "Kbps",
+"meaning" : "Kilobite Per Second"
+},
+
+
+{
+"id" : 420,
+"abbreviation" : "KDE",
+"meaning" : "K DEsktop Environment"
+},
+
+
+{
+"id" : 421,
+"abbreviation" : "KVM Switch",
+"meaning" : "Keyboard,Video, and Mouse Switch"
+},
+
+
+{
+"id" : 422,
+"abbreviation" : "LAMP",
+"meaning" : "Linux,Apache,MySQL,and PHP"
+},
+
+
+{
+"id" : 423,
+"abbreviation" : "LAN",
+"meaning" : "Local Area Network"
+},
+
+
+{
+"id" : 424,
+"abbreviation" : "LCD",
+"meaning" : "Liquid Crystal Display"
+},
+
+
+{
+"id" : 425,
+"abbreviation" : "LDAP",
+"meaning" : "Lightweight Directory Access Protocol"
+},
+
+
+{
+"id" : 426,
+"abbreviation" : "LED",
+"meaning" : "Light-Emitting Diode"
+},
+
+
+{
+"id" : 427,
+"abbreviation" : "LFN",
+"meaning" : "Long Filename"
+},
+
+
+{
+"id" : 428,
+"abbreviation" : "LIFO",
+"meaning" : "Last in,First out"
+},
+
+
+{
+"id" : 429,
+"abbreviation" : "LPI",
+"meaning" : "Lines Per Inch"
+},
+
+
+{
+"id" : 430,
+"abbreviation" : "LTE",
+"meaning" : "Long Term Evolution"
+},
+
+
+{
+"id" : 431,
+"abbreviation" : "LUN",
+"meaning" : "Logical Unit Number"
+},
+
+
+{
+"id" : 432,
+"abbreviation" : "MAC Address",
+"meaning" : "Media Access Control Address"
+},
+
+
+{
+"id" : 433,
+"abbreviation" : "MAMP",
+"meaning" : "Mac OS X Apache,MySQL,and PHP" },
+
+{
+},
+
+
+{
+  "id" : 434,
+"abbreviation" : "MAN",
+"meaning" : "Metropolitan Area Network"
+},
+
+
+{
+"id" : 435,
+"abbreviation" : "MANET",
+"meaning" : "Mobile Ad Hoc Network"
+},
+
+
+{
+"id" : 436,
+"abbreviation" : "Mbps",
+"meaning" : "Megabits Per Second"
+},
+
+
+{
+"id" : 437,
+"abbreviation" : "MBR",
+"meaning" : "Master Boot Record"
+},
+
+
+{
+"id" : 438,
+"abbreviation" : "MCA",
+"meaning" : "Micro Channel Architecture"
+},
+
+
+{
+"id" : 439,
+"abbreviation" : "MDI",
+"meaning" : "Medium Dependent Interface"
+},
+
+
+{
+"id" : 440,
+"abbreviation" : "MDP",
+"meaning" : "Mini DisplayPort"
+},
+
+
+{
+"id" : 441,
+"abbreviation" : "MIDI",
+"meaning" : "Musical Instrument Digital Interface"
+},
+
+
+{
+"id" : 442,
+"abbreviation" : "MIPS",
+"meaning" : "Million Instructions Per Second"
+},
+
+
+{
+"id" : 443,
+"abbreviation" : "MIS",
+"meaning" : "Management Information System"
+},
+
+
+{
+"id" : 444,
+"abbreviation" : "MMS",
+"meaning" : "Multimedia Messaging Service"
+},
+
+
+{
+"id" : 445,
+"abbreviation" : "MODEM",
+"meaning" : "modulator/demodulator"
+},
+
+
+{
+"id" : 446,
+"abbreviation" : "MP3",
+"meaning" : "MPEG-1 Audio layer-44"
+},
+
+
+{
+"id" : 447,
+"abbreviation" : "MPEG",
+"meaning" : "Moving Picture Experts Group"
+},
+
+
+{
+"id" : 448,
+"abbreviation" : "MTU",
+"meaning" : "Maximum Transmission Unit"
+},
+
+
+{
+"id" : 449,
+"abbreviation" : "MVC",
+"meaning" : "Model-View-Controller"
+},
+
+
+{
+"id" : 450,
+"abbreviation" : "MX",
+"meaning" : "Mail Exchange"
+},
+
+
+{
+"id" : 451,
+"abbreviation" : "NAT",
+"meaning" : "Network Address Translation"
+},
+
+
+{
+"id" : 452,
+"abbreviation" : "NetBIOS",
+"meaning" : "Network Basic Input/Output System"
+},
+
+
+{
+"id" : 453,
+"abbreviation" : "NFC",
+"meaning" : "Near Field Communication"
+},
+
+
+{
+"id" : 454,
+"abbreviation" : "NFT",
+"meaning" : "Non-Fungible Token"
+},
+
+
+{
+"id" : 455,
+"abbreviation" : "NIC",
+"meaning" : "Network Interface Card"
+},
+
+
+{
+"id" : 456,
+"abbreviation" : "NLX",
+"meaning" : "New Low-Profile Extended"
+},
+
+
+{
+"id" : 457,
+"abbreviation" : "NMS",
+"meaning" : "Network Management System"
+},
+
+
+{
+"id" : 458,
+"abbreviation" : "NNTP",
+"meaning" : "Network News Transfer Protocol"
+},
+
+
+{
+"id" : 459,
+"abbreviation" : "NOC",
+"meaning" : "Network Operations Center"
+},
+
+
+{
+"id" : 460,
+"abbreviation" : "NOS",
+"meaning" : "Network Operating System"
+},
+
+
+
+{
+"id" : 461,
+"abbreviation" : "NPN",
+"meaning" : "Negative Positive- Negative"
+},
+
+
+{
+  "id" : 462,
+"abbreviation" : "NSP",
+"meaning" : "Network Service Provider"
+},
+
+
+{
+"id" : 463,
+"abbreviation" : "NTFS",
+"meaning" : "New Technology File System"
+},
+
+
+{
+"id" : 464,
+"abbreviation" : "NTP",
+"meaning" : "Network Time Protocol"
+},
+
+
+{
+"id" : 465,
+"abbreviation" : "NTSC",
+"meaning" : "National Television System Committee"
+},
+
+
+{
+"id" : 466,
+"abbreviation" : "NUI",
+"meaning" : "Natural User Interface"
+},
+
+
+{
+"id" : 467,
+"abbreviation" : "NVRAM",
+"meaning" : "Non-Volatile Random Access Memory"
+},
+
+
+{
+"id" : 468,
+"abbreviation" : "OASIS",
+"meaning" : "Organisation for the Advancement of Structured Information Standards"
+},
+
+
+{
+"id" : 469,
+"abbreviation" : "OCR",
+"meaning" : "Optical Character Recognition"
+},
+
+
+{
+"id" : 470,
+"abbreviation" : "ODBC",
+"meaning" : "Open Database Connectivity"
+},
+
+
+{
+"id" : 471,
+"abbreviation" : "OEM",
+"meaning" : "Original Equipment Manufacturer"
+},
+
+
+{
+"id" : 472,
+"abbreviation" : "OFDM",
+"meaning" : "Orthogonal Frequency Division Multiplexing"
+},
+
+
+{
+"id" : 473,
+"abbreviation" : "OLAP",
+"meaning" : "Online Analytical Processing"
+},
+
+
+{
+"id" : 474,
+"abbreviation" : "OLE",
+"meaning" : "Object Linking and Embedding"
+},
+
+
+{
+"id" : 475,
+"abbreviation" : "OLED",
+"meaning" : "Organic Light Emmiting Diode"
+},
+
+
+{
+"id" : 476,
+"abbreviation" : "OOP",
+"meaning" : "Object-Oriented Programming"
+},
+
+
+{
+"id" : 477,
+"abbreviation" : "OSPF",
+"meaning" : "Open Shortest Path First"
+},
+
+
+{
+"id" : 478,
+"abbreviation" : "OTA",
+"meaning" : "Over-The-Air"
+},
+
+
+{
+"id" : 479,
+"abbreviation" : "PAN",
+"meaning" : "Personal Area Network"
+},
+
+
+{
+"id" : 480,
+"abbreviation" : "PAT",
+"meaning" : "Port address Translation"
+},
+
+
+{
+"id" : 481,
+"abbreviation" : "P2P",
+"meaning" : "Peer-to-Peer"
+},
+
+
+{
+"id" : 482,
+"abbreviation" : "PC",
+"meaning" : "Personal Computer"
+},
+
+
+{
+"id" : 483,
+"abbreviation" : "PCB",
+"meaning" : "Printed Circuit Board"
+},
+
+
+{
+"id" : 484,
+"abbreviation" : "PCI",
+"meaning" : "Peripheral Component Interconnect"
+},
+
+
+{
+"id" : 485,
+"abbreviation" : "PCI-X",
+"meaning" : "Peripheral Component Interconnect Extended"
+},
+
+
+{
+"id" : 486,
+"abbreviation" : "PCMCIA",
+"meaning" : "Personal Computer Memory Card International Association"
+},
+
+
+{
+"id" : 487,
+"abbreviation" : "PDA",
+"meaning" : "Personal Digital Assistant"
+},
+
+
+{
+"id" : 488,
+"abbreviation" : "PDF",
+"meaning" : "Portable Document Format"
+},
+
+
+{
+"id" : 489,
+"abbreviation" : "PDU",
+"meaning" : "Protocol Data Unit"
+},
+
+
+{
+"id" : 490,
+"abbreviation" : "PHP",
+"meaning" : "Hypertext Preprocessor"
+},
+
+
+{
+"id" : 491,
+"abbreviation" : "PIM",
+"meaning" : "Personal Information Manager"
+},
+
+
+{
+"id" : 492,
+"abbreviation" : "PMU",
+"meaning" : "Power Management Unit"
+},
+
+
+{
+"id" : 493,
+"abbreviation" : "PNG",
+"meaning" : "Portable Network Graphic"
+},
+
+
+{
+"id" : 494,
+"abbreviation" : "PoE",
+"meaning" : "Power over Ethernet"
+},
+
+
+{
+"id" : 495,
+"abbreviation" : "PON",
+"meaning" : "Passive Optical Network"
+},
+
+
+{
+"id" : 496,
+"abbreviation" : "POP3",
+"meaning" : "Post Office Protocol"
+},
+
+
+{
+"id" : 497,
+"abbreviation" : "POST",
+"meaning" : "Power On Self Test"
+},
+
+
+{
+"id" : 498,
+"abbreviation" : "POTS",
+"meaning" : "Plain Old Telephone Service"
+},
+
+
+{
+"id" : 499,
+"abbreviation" : "PPC",
+"meaning" : "Pay Per Click"
+},
+
+
+{
+"id" : 500,
+"abbreviation" : "PPGA",
+"meaning" : "Plastic Pin Grid Array"
+},
+
+
+{
+"id" : 501,
+"abbreviation" : "PPI",
+"meaning" : "Pixels Per Inch"
+},
+
+
+{
+"id" : 502,
+"abbreviation" : "PPP",
+"meaning" : "Point-to-point Protocol"
+},
+
+
+{
+"id" : 503,
+"abbreviation" : "PPPoE",
+"meaning" : "Point-to-Point Protocol over Ethernet"
+},
+
+
+{
+"id" : 504,
+"abbreviation" : "PPTP",
+"meaning" : "Point-to-Point Tunneling Protocol"
+},
+
+
+{
+"id" : 505,
+"abbreviation" : "PRAM",
+"meaning" : "Parameter Random Access Memory"
+},
+
+
+{
+"id" : 506,
+"abbreviation" : "PROM",
+"meaning" : "Programmable Read Only Memory"
+},
+
+
+{
+"id" : 507,
+"abbreviation" : "PS/2",
+"meaning" : "Personal System/2"
+},
+
+
+{
+"id" : 508,
+"abbreviation" : "PSTN",
+"meaning" : "Public Switched Telephone Network"
+},
+
+
+{
+"id" : 509,
+"abbreviation" : "PUP",
+"meaning" : "Potentially Unwanted Program"
+},
+
+
+{
+"id" : 510,
+"abbreviation" : "QBE",
+"meaning" : "Query By Example"
+},
+
+
+{
+"id" : 511,
+"abbreviation" : "QBDG",
+"meaning" : "Query Based Distribution Group"
+},
+
+
+{
+"id" : 512,
+"abbreviation" : "QBDL",
+"meaning" : "Query Based Distribution List"
+},
+
+
+{
+"id" : 513,
+"abbreviation" : "QCIF",
+"meaning" : "Quarter Common Intermediate Format"
+},
+
+
+{
+"id" : 514,
+"abbreviation" : "QD",
+"meaning" : "Queuing Delay"
+},
+
+
+{
+"id" : 515,
+"abbreviation" : "QDF",
+"meaning" : "Quicken Data File"
+},
+
+
+{
+"id" : 516,
+"abbreviation" : "QDOS",
+"meaning" : "Quick And Dirty Operating System"
+},
+
+
+{
+"id" : 517,
+"abbreviation" : "QDR",
+"meaning" : "Quad Data Rate"
+},
+
+
+{
+"id" : 518,
+"abbreviation" : "QEMM",
+"meaning" : "Quarterdeck Expanded Memory Manage"
+},
+
+
+{
+"id" : 519,
+"abbreviation" : "QFE",
+"meaning" : "Quick Fix Engineering"
+},
+
+
+{
+"id" : 520,
+"abbreviation" : "QFP",
+"meaning" : "Quoted For Permanence"
+},
+
+
+{
+"id" : 521,
+"abbreviation" : "QI",
+"meaning" : "Query Interface "
+},
+
+
+{
+"id" : 522,
+"abbreviation" : "qic",
+"meaning" : "Quarter-Inch Cartridge "
+},
+
+
+{
+"id" : 523,
+"abbreviation" : "QIF",
+"meaning" : "Quicken Interchange Format"
+},
+
+
+{
+"id" : 524,
+"abbreviation" : "QIP",
+"meaning" : "quality improvement process"
+},
+
+
+{
+"id" : 525,
+"abbreviation" : "QIX",
+"meaning" : "NASDAQ Information Exchange protocol"
+},
+
+
+{
+"id" : 526,
+"abbreviation" : "QLLC",
+"meaning" : "Qualified Logical Link Control protocol"
+},
+
+
+{
+"id" : 527,
+"abbreviation" : "QMF",
+"meaning" : "Query Management Facility"
+},
+
+
+{
+"id" : 528,
+"abbreviation" : "QMS",
+"meaning" : "Quality Micro Systems"
+},
+
+
+{
+"id" : 529,
+"abbreviation" : "QoE",
+"meaning" : "quality of experience"
+},
+
+
+{
+"id" : 530,
+"abbreviation" : "QR code",
+"meaning" : "Quick Response code"
+},
+
+
+{
+"id" : 531,
+"abbreviation" : "QSA",
+"meaning" : "Qualified Security Assessor"
+},
+
+
+{
+"id" : 532,
+"abbreviation" : "QSIG",
+"meaning" : "Q signaling"
+},
+
+
+{
+"id" : 533,
+"abbreviation" : "QTM",
+"meaning" : "Quadratic Texture Mapping"
+},
+
+
+{
+"id" : 534,
+"abbreviation" : "QTVR",
+"meaning" : "QuickTime Virtual Reality"
+},
+
+
+{
+"id" : 535,
+"abbreviation" : "RAID",
+"meaning" : "Redundant Array of Independent Disks"
+},
+
+
+{
+"id" : 536,
+"abbreviation" : "RAM",
+"meaning" : "Random Access Memory"
+},
+
+
+{
+"id" : 537,
+"abbreviation" : "RARP",
+"meaning" : "Reverse Address Resolution Protocol"
+},
+
+
+{
+"id" : 538,
+"abbreviation" : "RAS",
+"meaning" : "Remote Access Service"
+},
+
+
+{
+"id" : 539,
+"abbreviation" : "RCA",
+"meaning" : "Radio Corporation of America"
+},
+
+
+{
+"id" : 540,
+"abbreviation" : "RDBMS",
+"meaning" : "Relational Database Management System"
+},
+
+
+{
+"id" : 541,
+"abbreviation" : "RDF",
+"meaning" : "Resource Description Framework"
+},
+
+
+{
+"id" : 542,
+"abbreviation" : "RDP",
+"meaning" : "Remote Desktop Protocol"
+},
+
+
+{
+"id" : 543,
+"abbreviation" : "RDRAM",
+"meaning" : "Rambus Dynamic Random Access Memory"
+},
+
+
+{
+"id" : 544,
+"abbreviation" : "RFID",
+"meaning" : "Radio-Frequency Identification"
+},
+
+
+{
+"id" : 545,
+"abbreviation" : "RIM",
+"meaning" : "Research In Motion"
+},
+
+
+{
+"id" : 546,
+"abbreviation" : "RIP",
+"meaning" : "Routing Information Protocol"
+},
+
+
+{
+"id" : 547,
+"abbreviation" : "RISC",
+"meaning" : "Reduced Instruction Set Computing"
+},
+
+
+{
+"id" : 548,
+"abbreviation" : "RJ",
+"meaning" : "Registered jack"
+},
+
+
+{
+"id" : 549,
+"abbreviation" : "ROM",
+"meaning" : "Read-Only Memory"
+},
+
+
+{
+"id" : 550,
+"abbreviation" : "RPC",
+"meaning" : "Remote Procedure Call"
+},
+
+
+{
+"id" : 551,
+"abbreviation" : "RRAS",
+"meaning" : "Routing and Remote Access Service"
+},
+
+
+{
+"id" : 552,
+"abbreviation" : "SAN",
+"meaning" : "Storage Area Network"
+},
+
+
+{
+"id" : 553,
+"abbreviation" : "Sass",
+"meaning" : "Synactically Awesome Style Sheets"
+},
+
+
+{
+"id" : 554,
+"abbreviation" : "SATA",
+"meaning" : "Serial Advanced Technology Attachment"
+},
+
+
+{
+"id" : 555,
+"abbreviation" : "SCSI",
+"meaning" : "Small Computer System Interface"
+},
+
+
+{
+"id" : 556,
+"abbreviation" : "SD",
+"meaning" : "Secure Digital"
+},
+
+
+{
+"id" : 557,
+"abbreviation" : "SDK",
+"meaning" : "Software Development Kit"
+},
+
+
+{
+"id" : 558,
+"abbreviation" : "SDLC",
+"meaning" : "System Development Lifecycle"
+},
+
+
+{
+"id" : 559,
+"abbreviation" : "SDRAM",
+"meaning" : "Synchronous Dynamic Random Access Memory"
+},
+
+
+{
+"id" : 560,
+"abbreviation" : "SDS",
+"meaning" : "Software-Defined Storage"
+},
+
+
+{
+"id" : 561,
+"abbreviation" : "SDSL",
+"meaning" : "Symmetric Digital Subscriber Line"
+},
+
+
+{
+"id" : 562,
+"abbreviation" : "SEO",
+"meaning" : "Search Engine Optimization"
+},
+
+
+{
+"id" : 563,
+"abbreviation" : "SERP",
+"meaning" : "Search Engine Results Page"
+},
+
+
+{
+"id" : 564,
+"abbreviation" : "SIM Card",
+"meaning" : "Subscriber Identification Module Card"
+},
+
+
+{
+"id" : 565,
+"abbreviation" : "SIMM",
+"meaning" : "Single in-Line Memory Module"
+},
+
+
+{
+"id" : 566,
+"abbreviation" : "SIP",
+"meaning" : "Session Initiation Protocol"
+},
+
+
+{
+"id" : 567,
+"abbreviation" : "SLI",
+"meaning" : "Scalable Link Interface"
+},
+
+
+{
+"id" : 568,
+"abbreviation" : "SMART",
+"meaning" : "Self-Monitoring Analysis And Reporting Technology"
+},
+
+
+{
+"id" : 569,
+"abbreviation" : "SMB",
+"meaning" : "Server Message Block"
+},
+
+
+{
+"id" : 570,
+"abbreviation" : "SMM",
+"meaning" : "Social Media Marketing"
+},
+
+
+{
+"id" : 571,
+"abbreviation" : "SMS",
+"meaning" : "Short Message Service"
+},
+
+
+{
+"id" : 572,
+"abbreviation" : "SMTP",
+"meaning" : "Simple Mail Transfer Protocol"
+},
+
+
+{
+"id" : 573,
+"abbreviation" : "SNMP",
+"meaning" : "Simple Network Management Protocol"
+},
+
+
+{
+"id" : 574,
+"abbreviation" : "SO-DIMM",
+"meaning" : "Small Outline Dual In-Line Memory Mobile"
+},
+
+
+{
+"id" : 575,
+"abbreviation" : "SOA",
+"meaning" : "Service Oriented Architecture"
+},
+
+
+{
+"id" : 576,
+"abbreviation" : "SOAP",
+"meaning" : "Simple Object Access Protocol"
+},
+
+
+{
+"id" : 577,
+"abbreviation" : "SoC",
+"meaning" : "System on a Chip"
+},
+
+
+{
+"id" : 578,
+"abbreviation" : "SOHO",
+"meaning" : "Small Office, Home Office"
+},
+
+
+{
+"id" : 579,
+"abbreviation" : "SPX",
+"meaning" : "Sequenced Packet Exchange"
+},
+
+
+{
+"id" : 580,
+"abbreviation" : "SQL",
+"meaning" : "Structured Query Language"
+},
+
+
+{
+"id" : 581,
+"abbreviation" : "SRAM",
+"meaning" : "Static Random Access Memory"
+},
+
+
+{
+"id" : 582,
+"abbreviation" : "SRE",
+"meaning" : "Site Reliability Engineering"
+},
+
+
+{
+"id" : 583,
+"abbreviation" : "SSD",
+"meaning" : "Solid State Drive"
+},
+
+
+{
+"id" : 584,
+"abbreviation" : "SSH",
+"meaning" : "Secure Shell"
+},
+
+
+{
+"id" : 585,
+"abbreviation" : "SSID",
+"meaning" : "Service Set Identifier"
+},
+
+
+{
+"id" : 586,
+"abbreviation" : "SSL",
+"meaning" : "Secure Sockets layer"
+},
+
+
+{
+"id" : 587,
+"abbreviation" : "STP",
+"meaning" : "Shielded Twisted Pair"
+},
+
+
+{
+"id" : 588,
+"abbreviation" : "TCP/IP",
+"meaning" : "Transmission Control Protocol/Internet Protocol"
+},
+
+
+{
+"id" : 589,
+"abbreviation" : "TFT",
+"meaning" : "Thin-Film Transistor"
+},
+
+
+{
+"id" : 590,
+"abbreviation" : "TKIP",
+"meaning" : "Temporary Key Integrity Protocol"
+},
+
+
+{
+"id" : 591,
+"abbreviation" : "TLS",
+"meaning" : "Transport Layer Security"
+},
+
+
+{
+"id" : 592,
+"abbreviation" : "TN",
+"meaning" : "Twisted Nematic"
+},
+
+
+{
+"id" : 593,
+"abbreviation" : "TV",
+"meaning" : "Television"
+},
+
+
+{
+"id" : 594,
+"abbreviation" : "TWAIN",
+"meaning" : "Toolkit Without An Informative Name"
+},
+
+
+{
+"id" : 595,
+"abbreviation" : "UAT",
+"meaning" : "User Acceptance Testing"
+},
+
+
+{
+"id" : 596,
+"abbreviation" : "UDDI",
+"meaning" : "Universal Description Discovery and Integration"
+},
+
+
+{
+"id" : 597,
+"abbreviation" : "UDP",
+"meaning" : "User Datagram Protocol"
+},
+
+
+{
+"id" : 598,
+"abbreviation" : "UEFI",
+"meaning" : "Unified Extensible Firmware Interface"
+},
+
+
+{
+"id" : 599,
+"abbreviation" : "UGC",
+"meaning" : "User Generated Content"
+},
+
+
+{
+"id" : 600,
+"abbreviation" : "UICC",
+"meaning" : "Universal Integrated Circuit Card"
+},
+
+
+{
+"id" : 601,
+"abbreviation" : "UML",
+"meaning" : "Unified Modeling"
+},
+
+
+{
+"id" : 602,
+"abbreviation" : "UNC",
+"meaning" : "Universal Naming Convention"
+},
+
+
+{
+"id" : 603,
+"abbreviation" : "UPnP",
+"meaning" : "Universal Plug and Play"
+},
+
+
+{
+"id" : 604,
+"abbreviation" : "UPS",
+"meaning" : "Uninterruptable Power Supply"
+},
+
+
+{
+"id" : 605,
+"abbreviation" : "URL",
+"meaning" : "Uniform Resource Locator"
+},
+
+
+{
+"id" : 606,
+"abbreviation" : "USB",
+"meaning" : "Universal Serial Bus"
+},
+
+
+{
+"id" : 607,
+"abbreviation" : "UTF",
+"meaning" : "Unicode Transformation Format"
+},
+
+
+{
+"id" : 608,
+"abbreviation" : "UUID",
+"meaning" : "Universally Unique Identifier"
+},
+
+
+{
+"id" : 609,
+"abbreviation" : "UWP",
+"meaning" : "Universal Windows Platform"
+},
+
+
+{
+"id" : 610,
+"abbreviation" : "VCI",
+"meaning" : "Virtual Channel Identifier"
+},
+
+
+{
+"id" : 611,
+"abbreviation" : "VDSL",
+"meaning" : "Very High Bit Rate Digital Subscriber Line"
+},
+
+
+{
+"id" : 612,
+"abbreviation" : "VDU",
+"meaning" : "Visual Display Unit"
+},
+
+
+{
+"id" : 613,
+"abbreviation" : "VESA",
+"meaning" : "Video Electronics Standards Association"
+},
+
+
+{
+"id" : 614,
+"abbreviation" : "VFAT",
+"meaning" : "Virtual File Allocation Table"
+},
+
+
+{
+"id" : 615,
+"abbreviation" : "VGA",
+"meaning" : "Video Graphics Array"
+},
+
+
+{
+"id" : 616,
+"abbreviation" : "VIP",
+"meaning" : "Virtual IP Address"
+},
+
+
+{
+"id" : 617,
+"abbreviation" : "VLAN",
+"meaning" : "Virtual Local Area Network"
+},
+
+
+{
+"id" : 618,
+"abbreviation" : "VLE",
+"meaning" : "Virtual Learning Environment"
+},
+
+
+{
+"id" : 619,
+"abbreviation" : "VolP",
+"meaning" : "Voice Over internet Protocol"
+},
+
+
+{
+"id" : 620,
+"abbreviation" : "VPI",
+"meaning" : "Virtual Path Identifier"
+},
+
+
+{
+"id" : 621,
+"abbreviation" : "VPN",
+"meaning" : "Virtual Private Network"
+},
+
+
+{
+"id" : 622,
+"abbreviation" : "VPS",
+"meaning" : "Virtual Private Server"
+},
+
+
+{
+"id" : 623,
+"abbreviation" : "VRAM",
+"meaning" : "Video Random Access Memory"
+},
+
+
+{
+"id" : 624,
+"abbreviation" : "VRML",
+"meaning" : "Virtual Reality Modeling Language"
+},
+
+
+{
+"id" : 625,
+"abbreviation" : "W3C",
+"meaning" : "World Wide Web Consortium"
+},
+
+
+{
+"id" : 626,
+"abbreviation" : "WAIS",
+"meaning" : "Wide Area Information Server"
+},
+
+
+{
+"id" : 627,
+"abbreviation" : "WAMP",
+"meaning" : "Windows,Apache,MySQL,and PHP"
+},
+
+
+{
+"id" : 628,
+"abbreviation" : "WAN",
+"meaning" : "Wide Area Network"
+},
+
+
+{
+"id" : 629,
+"abbreviation" : "WDDM",
+"meaning" : "Windows Display Driver Model"
+},
+
+
+{
+"id" : 630,
+"abbreviation" : "WEBCAM",
+"meaning" : "World Wide Web Camera"
+},
+
+
+{
+"id" : 631,
+"abbreviation" : "WEP",
+"meaning" : "Wired Equivalent Privacy"
+},
+
+
+{
+"id" : 632,
+"abbreviation" : "WiFi",
+"meaning" : "Wireless Fidelity"
+},
+
+
+{
+"id" : 633,
+"abbreviation" : "WIMP",
+"meaning" : "Windows,Icons,Menus,Pointer"
+},
+
+
+{
+"id" : 634,
+"abbreviation" : "WINS",
+"meaning" : "Windows Internet Name Service"
+},
+
+
+{
+"id" : 635,
+"abbreviation" : "WLAN",
+"meaning" : "Wireless Local Area Network"
+},
+
+
+{
+"id" : 636,
+"abbreviation" : "WPA",
+"meaning" : "Wi-Fi Protected Access"
+},
+
+
+{
+"id" : 637,
+"abbreviation" : "WPA2",
+"meaning" : "Wi-Fi Protected Access 2"
+},
+
+
+{
+"id" : 638,
+"abbreviation" : "WWW",
+"meaning" : "World Wide Web"
+},
+
+
+{
+"id" : 639,
+"abbreviation" : "WYSIWYG",
+"meaning" : "What You See Is What You Get"
+},
+
+
+{
+"id" : 640,
+"abbreviation" : "XAML",
+"meaning" : "Extensible Application Markup language"
+},
+
+
+{
+"id" : 641,
+"abbreviation" : "XHTML",
+"meaning" : "Extensible Hypertext Markup Language"
+},
+
+
+{
+"id" : 642,
+"abbreviation" : "XML",
+"meaning" : "Extensible markup Language"
+},
+
+
+{
+"id" : 643,
+"abbreviation" : "XMP",
+"meaning" : "Extensible Metadata Platform"
+},
+
+
+{
+"id" : 644,
+"abbreviation" : "XSLT",
+"meaning" : "Extensible Style Sheet language Transformation"
+},
+
+
+{
+"id" : 645,
+"abbreviation" : "Y2K",
+"meaning" : "Year 2000"
+},
+
+
+{
+"id" : 646,
+"abbreviation" : "yacc",
+"meaning" : "yet another compiler compiler"
+},
+
+
+{
+"id" : 647,
+"abbreviation" : "YAST",
+"meaning" : "Yet Another Setup Tool"
+},
+
+
+{
+"id" : 648,
+"abbreviation" : "YB",
+"meaning" : "Yottabyte"
+},
+
+
+{
+"id" : 649,
+"abbreviation" : "YiB",
+"meaning" : "Yobibyte"
+},
+
+
+{
+"id" : 650,
+"abbreviation" : "YIM",
+"meaning" : "Yahoo! Instant Messenger"
+},
+
+
+{
+"id" : 651,
+"abbreviation" : "YKYBHTLW",
+"meaning" : "you know you've been hacking too long when"
+},
+
+
+{
+"id" : 652,
+"abbreviation" : "YPN",
+"meaning" : "Yahoo Publishers Network"
+},
+
+
+{
+"id" : 653,
+"abbreviation" : "YYYY-MM-DD",
+"meaning" : "Year Year Year Year - Month Month - Day Day"
+},
+
+
+{
+"id" : 654,
+"abbreviation" : "ZAPP",
+"meaning" : "Zero Assignment Parallel Processor"
+},
+
+
+{
+"id" : 655,
+"abbreviation" : "ZAW",
+"meaning" : "Zero Administration Window"
+},
+
+
+{
+"id" : 656,
+"abbreviation" : "ZB",
+"meaning" : "Zettabyte"
+},
+
+
+{
+"id" : 657,
+"abbreviation" : "ZBR",
+"meaning" : "Zero Bug Release"
+},
+
+
+{
+"id" : 658,
+"abbreviation" : "ZBTSI",
+"meaning" : "Zero Byte Time Slot Interchange"
+},
+
+
+{
+"id" : 659,
+"abbreviation" : "ZCS",
+"meaning" : "zero code suppression"
+},
+
+
+{
+"id" : 660,
+"abbreviation" : "ZCT",
+"meaning" : "zero count table"
+},
+
+
+{
+"id" : 661,
+"abbreviation" : "ZDL",
+"meaning" : "Zero Delay Lockout"
+},
+
+
+{
+"id" : 662,
+"abbreviation" : "ZDO",
+"meaning" : "ZigBee Device Object"
+},
+
+
+{
+"id" : 663,
+"abbreviation" : "ZFS",
+"meaning" : "Zettabyte File System"
+},
+
+
+{
+"id" : 664,
+"abbreviation" : "ZIF",
+"meaning" : "Zero Insertion Force"
+},
+
+
+{
+"id" : 665,
+"abbreviation" : "ZIL",
+"meaning" : "Zork Implementation Language"
+},
+
+
+{
+"id" : 666,
+"abbreviation" : "zine",
+"meaning" : "electronic magazine"
+},
+
+
+{
+"id" : 667,
+"abbreviation" : "ZINK",
+"meaning" : "Zero INK"
+},
+
+
+{
+"id" : 668,
+"abbreviation" : "ZIP",
+"meaning" : "Zone Information Protocol"
+},
+
+
+{
+"id" : 669,
+"abbreviation" : "ZLE",
+"meaning" : "zero-latency enterprise"
+},
+
+
+{
+"id" : 670,
+"abbreviation" : "ZMA",
+"meaning" : "Zone Multicast Address"
+},
+
+
+{
+"id" : 671,
+"abbreviation" : "ZNA",
+"meaning" : "Zero Network Administration"
+},
+
+
+{
+"id" : 672,
+"abbreviation" : "ZOPE",
+"meaning" : "Z Object Publishing Environment"
+},
+
+
+{
+"id" : 673,
+"abbreviation" : "ZTE",
+"meaning" : "Zhong Xing Telecommunication Equipment"
+},
+
+
+{
+"id" : 674,
+"abbreviation" : "ZTLP",
+"meaning" : "Zero Transmission Level Point"
+},
+
+
+{
+"id" : 675,
+"abbreviation" : "zsh",
+"meaning" : "Z shell"
+}
+
+
+
+             
+]
+}
+
